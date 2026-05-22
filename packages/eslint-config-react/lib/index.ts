@@ -77,3 +77,5 @@ export const configs = {
   reactHooks: defineConfig(reactConfigHooks),
   base: defineConfig(pooolint.configs.recommended),
 };
+
+export default { configs };
