@@ -11,7 +11,7 @@
     "directory": "packages/eslint-config-react"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "author": "Ugo Stephant <ugo@poool.fr>",
   "license": "MIT",
