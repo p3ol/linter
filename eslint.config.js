@@ -1,6 +1,7 @@
 // @ts-check
 
 import { defineConfig, globalIgnores } from 'eslint/config';
+import oxlint from 'eslint-plugin-oxlint';
 
 import pooolConfig from '@poool/eslint-config';
 import pooolReactConfig from '@poool/eslint-config-react';
@@ -43,4 +44,5 @@ export default defineConfig(
     },
   },
   pooolReactConfig.configs.react,
+  ...oxlint.configs['flat/all'],
 );
