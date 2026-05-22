@@ -2,6 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "types": ["node", "vitest/globals"],
     "lib": ["ES2021"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
@@ -9,6 +10,7 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
+    "allowImportingTsExtensions": true,
     "target": "ES2021",
     "noEmit": true,
     "allowJs": true,

@@ -138,7 +138,7 @@ export const configs = {
         '@stylistic/template-curly-spacing': ERROR,
 
         // ESLint Built-in
-        'camelcase': [ERROR, {
+        camelcase: [ERROR, {
           properties: 'never',
           ignoreDestructuring: true,
         }],

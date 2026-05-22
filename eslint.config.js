@@ -1,6 +1,6 @@
 // @ts-check
 
-import { defineConfig } from 'eslint/config';
+import { defineConfig, globalIgnores } from 'eslint/config';
 
 import pooolConfig from '@poool/eslint-config';
 import pooolReactConfig from '@poool/eslint-config-react';
@@ -8,15 +8,18 @@ import pooolReactConfig from '@poool/eslint-config-react';
 const __dirname = import.meta.dirname;
 
 export default defineConfig(
-  {
-    ignores: ['node_modules', '**/dist', '.yarn', '.turbo'],
-  },
+  globalIgnores(['node_modules', '**/dist', '.yarn', '.turbo']),
   pooolConfig.configs.recommended,
   {
     languageOptions: {
       parserOptions: {
         projectService: true,
         tsconfigRootDir: __dirname,
+      },
+    },
+    settings: {
+      react: {
+        version: 'detect',
       },
     },
   },
@@ -40,12 +43,4 @@ export default defineConfig(
     },
   },
   pooolReactConfig.configs.react,
-  {
-    files: ['**/*.{jsx,tsx}'],
-    settings: {
-      react: {
-        version: 'detect',
-      },
-    },
-  },
 );

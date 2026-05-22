@@ -2,6 +2,7 @@
   "name": "@poool/eslint-config-react",
   "version": "5.0.10",
   "description": "Common ESLint rules we share between React projects at Poool",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
@@ -24,8 +25,8 @@
     "@poool/eslint-config": "workspace:^",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "7.0.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
   },
   "publishConfig": {
     "access": "public"

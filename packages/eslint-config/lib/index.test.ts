@@ -2,7 +2,7 @@ import path from 'node:path';
 
 import eslint from 'eslint';
 
-import { configs } from './index';
+import { configs } from './index.ts';
 
 const config = [
   ...configs.recommended,
