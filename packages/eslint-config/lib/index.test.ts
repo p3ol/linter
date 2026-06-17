@@ -661,7 +661,7 @@ export interface ServerEvents {
     });
   });
 
-  describe('import/newline-after-import', () => {
+  describe('import-x/newline-after-import', () => {
     it('should pass with newline after import', () => {
       const code = `
         import { foo } from 'foo';
@@ -671,7 +671,7 @@ export interface ServerEvents {
 
       expect(linter.verify(code, config, 'index.ts'))
         .not.toEqual(expect.arrayContaining([
-          expect.objectContaining({ ruleId: 'import/newline-after-import' }),
+          expect.objectContaining({ ruleId: 'import-x/newline-after-import' }),
         ]));
     });
 
@@ -683,7 +683,7 @@ export interface ServerEvents {
 
       expect(linter.verify(code, config, 'index.ts'))
         .toEqual(expect.arrayContaining([expect.objectContaining({
-          ruleId: 'import/newline-after-import',
+          ruleId: 'import-x/newline-after-import',
           message: 'Expected 1 empty line after import statement not ' +
             'followed by another import.',
           severity: 1,
@@ -691,7 +691,7 @@ export interface ServerEvents {
     });
   });
 
-  describe('import/order', () => {
+  describe('import-x/order', () => {
     it('should pass when imports respect order and newlines', () => {
       const code = `
         import fs from 'node:fs';
@@ -707,7 +707,7 @@ export interface ServerEvents {
 
       expect(linter.verify(code, config, 'index.ts'))
         .not.toEqual(expect.arrayContaining([
-          expect.objectContaining({ ruleId: 'import/order' }),
+          expect.objectContaining({ ruleId: 'import-x/order' }),
         ]));
     });
 
@@ -719,7 +719,7 @@ export interface ServerEvents {
 
       expect(linter.verify(code, config, 'index.ts'))
         .toEqual(expect.arrayContaining([expect.objectContaining({
-          ruleId: 'import/order',
+          ruleId: 'import-x/order',
           message: 'There should be at least one empty line between ' +
             'import groups',
           severity: 1,
@@ -735,7 +735,7 @@ export interface ServerEvents {
 
       expect(linter.verify(code, config, 'index.ts'))
         .toEqual(expect.arrayContaining([expect.objectContaining({
-          ruleId: 'import/order',
+          ruleId: 'import-x/order',
           message: '`fs` import should occur before import of `src/foo`',
           severity: 1,
         })]));

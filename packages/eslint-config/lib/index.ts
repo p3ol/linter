@@ -1,6 +1,6 @@
 import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
-import * as importPlugin from 'eslint-plugin-import';
+import * as importPlugin from 'eslint-plugin-import-x';
 import tseslint from 'typescript-eslint';
 import stylistic from '@stylistic/eslint-plugin';
 import jest from 'eslint-plugin-jest';
@@ -13,6 +13,8 @@ export const configs = {
   recommended: defineConfig(
     eslint.configs.recommended,
     tseslint.configs.recommended,
+    importPlugin.flatConfigs.recommended,
+    importPlugin.flatConfigs.typescript,
     {
       files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
       ...tseslint.configs.disableTypeChecked,
@@ -21,19 +23,6 @@ export const configs = {
         '@typescript-eslint/no-require-imports': OFF,
         '@typescript-eslint/prefer-nullish-coalescing': OFF,
         '@typescript-eslint/no-unused-vars': OFF,
-      },
-    },
-    {
-      ...importPlugin.flatConfigs.recommended,
-      ...importPlugin.flatConfigs.typescript,
-      settings: {
-        'import/parsers': {
-          '@typescript-eslint/parser': ['.ts', '.tsx'],
-        },
-        'import/resolver': {
-          typescript: true,
-          node: true,
-        },
       },
     },
     {
@@ -154,8 +143,8 @@ export const configs = {
         }],
 
         // Import
-        'import/newline-after-import': WARNING,
-        'import/order': [WARNING, {
+        'import-x/newline-after-import': WARNING,
+        'import-x/order': [WARNING, {
           groups: [
             'builtin',
             'external',
@@ -168,8 +157,8 @@ export const configs = {
             group: 'internal',
           }],
         }],
-        'import/no-named-as-default': OFF,
-        'import/no-named-as-default-member': OFF,
+        'import-x/no-named-as-default': OFF,
+        'import-x/no-named-as-default-member': OFF,
       },
     },
     // Typescript
