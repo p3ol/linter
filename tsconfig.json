@@ -22,7 +22,7 @@
     "**/*.tsx",
     "**/*.js",
     "**/*.jsx",
-    "eslint.config.mjs",
+    "eslint.config.js",
   ],
   "exclude": ["**/dist/*"]
 }

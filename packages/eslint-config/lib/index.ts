@@ -1,9 +1,13 @@
 import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import * as importPlugin from 'eslint-plugin-import-x';
+import {
+  createTypeScriptImportResolver,
+} from 'eslint-import-resolver-typescript';
 import tseslint from 'typescript-eslint';
 import stylistic from '@stylistic/eslint-plugin';
 import jest from 'eslint-plugin-jest';
+import vitest from '@vitest/eslint-plugin';
 
 const OFF = 0;
 const WARNING = 1;
@@ -15,6 +19,13 @@ export const configs = {
     tseslint.configs.recommended,
     importPlugin.flatConfigs.recommended,
     importPlugin.flatConfigs.typescript,
+    {
+      settings: {
+        'import-x/resolver-next': [
+          createTypeScriptImportResolver(),
+        ],
+      },
+    },
     {
       files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
       ...tseslint.configs.disableTypeChecked,
@@ -161,7 +172,7 @@ export const configs = {
         'import-x/no-named-as-default-member': OFF,
       },
     },
-    // Typescript
+    // Typescript only
     {
       files: ['**/*.ts', '**/*.tsx'],
       rules: {
@@ -195,7 +206,7 @@ export const configs = {
         }],
       },
     },
-    // Jest
+    // Jest/Vitest
     {
       files: [
         '**/*.test.js',
@@ -203,9 +214,9 @@ export const configs = {
         '**/*.test.tsx',
         'tests/**',
       ],
-      plugins: { jest },
-      languageOptions: {
-        globals: jest.environments.globals.globals,
+      plugins: { vitest, jest },
+      rules: {
+        ...vitest.configs.recommended.rules,
       },
     },
   ),

@@ -1,10 +1,27 @@
+import path from 'node:path';
+
 import eslint from 'eslint';
 
 import { configs } from './index.ts';
 
 const config = [
-  ...configs.react,
-  ...configs.reactHooks,
+  ...configs.recommended,
+  {
+    languageOptions: {
+      parserOptions: {
+        projectService: {
+          allowDefaultProject: ['*.tsx', '*.ts'],
+        },
+        tsconfigRootDir: path.resolve(__dirname),
+        ecmaFeatures: { jsx: true },
+      },
+    },
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
+  },
 ];
 
 describe('@poool/eslint-config-react', () => {
@@ -27,7 +44,7 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/jsx-closing-bracket-location', () => {
+  describe('@stylistic/jsx-closing-bracket-location', () => {
     it('should pass on aligned bracket with line', () => {
       const code = `
         <Hello
@@ -40,7 +57,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-closing-bracket-location',
+          ruleId: '@stylistic/jsx-closing-bracket-location',
         }),
       ]));
     });
@@ -56,7 +73,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-closing-bracket-location',
+          ruleId: '@stylistic/jsx-closing-bracket-location',
           messageId: 'bracketLocation',
           severity: 1,
         }),
@@ -64,7 +81,7 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/jsx-closing-tag-location', () => {
+  describe('@stylistic/jsx-closing-tag-location', () => {
     it('should pass on aligned closing tag', () => {
       const code = `
         <Hello>
@@ -77,7 +94,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-closing-tag-location',
+          ruleId: '@stylistic/jsx-closing-tag-location',
         }),
       ]));
     });
@@ -94,14 +111,14 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-closing-tag-location',
+          ruleId: '@stylistic/jsx-closing-tag-location',
           severity: 1,
         }),
       ]));
     });
   });
 
-  describe('react/jsx-curly-brace-presence', () => {
+  describe('@stylistic/jsx-curly-brace-presence', () => {
     it('should pass on correct curly braces', () => {
       const code = `<App prop='Hello world'>Hello world</App>;`;
 
@@ -109,7 +126,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-curly-brace-presence',
+          ruleId: '@stylistic/jsx-curly-brace-presence',
         }),
       ]));
     });
@@ -121,7 +138,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-curly-brace-presence',
+          ruleId: '@stylistic/jsx-curly-brace-presence',
           message: 'Curly braces are unnecessary here.',
           severity: 1,
         }),
@@ -129,7 +146,7 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/jsx-equals-spacing', () => {
+  describe('@stylistic/jsx-equals-spacing', () => {
     it('should pass on correct equals spacing', () => {
       const code = `<Hello name={firstname} />;`;
 
@@ -137,7 +154,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-equals-spacing',
+          ruleId: '@stylistic/jsx-equals-spacing',
         }),
       ]));
     });
@@ -149,7 +166,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-equals-spacing',
+          ruleId: '@stylistic/jsx-equals-spacing',
           message: `There should be no space after '='`,
           severity: 1,
         }),
@@ -157,7 +174,7 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/jsx-pascal-case', () => {
+  describe('@stylistic/jsx-pascal-case', () => {
     it('should pass on correct pascal case naming', () => {
       const code = `<TestComponent />;`;
 
@@ -165,7 +182,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-pascal-case',
+          ruleId: '@stylistic/jsx-pascal-case',
         }),
       ]));
     });
@@ -177,7 +194,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-pascal-case',
+          ruleId: '@stylistic/jsx-pascal-case',
           message: 'Imported JSX component Test_component must be in ' +
             'PascalCase',
           severity: 1,
@@ -186,7 +203,7 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/jsx-props-no-multi-spaces', () => {
+  describe('@stylistic/jsx-props-no-multi-spaces', () => {
     it('should pass on correct spacing between attributes', () => {
       const code = `<App cozy />`;
 
@@ -194,7 +211,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-props-no-multi-spaces',
+          ruleId: '@stylistic/jsx-props-no-multi-spaces',
         }),
       ]));
     });
@@ -206,7 +223,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-props-no-multi-spaces',
+          ruleId: '@stylistic/jsx-props-no-multi-spaces',
           message: 'Expected only one space between “too” and “spacy”',
           severity: 1,
         }),
@@ -214,7 +231,7 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/jsx-tag-spacing', () => {
+  describe('@stylistic/jsx-tag-spacing', () => {
     it('should pass on correct self closing tag spacing', () => {
       const code = `<Hello />`;
 
@@ -222,7 +239,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-tag-spacing',
+          ruleId: '@stylistic/jsx-tag-spacing',
         }),
       ]));
     });
@@ -234,7 +251,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-tag-spacing',
+          ruleId: '@stylistic/jsx-tag-spacing',
           message: 'A space is required before closing bracket',
           messageId: 'beforeSelfCloseNeedSpace',
           severity: 1,
@@ -249,7 +266,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-tag-spacing',
+          ruleId: '@stylistic/jsx-tag-spacing',
           message: 'A space is required before closing bracket',
           messageId: 'beforeSelfCloseNeedSpace',
           severity: 1,
@@ -264,7 +281,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-tag-spacing',
+          ruleId: '@stylistic/jsx-tag-spacing',
           message: 'A space is forbidden after opening bracket',
           messageId: 'beforeSelfCloseNeedSpace',
           severity: 1,
@@ -281,7 +298,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-tag-spacing',
+          ruleId: '@stylistic/jsx-tag-spacing',
           message: 'A space is forbidden before closing bracket',
           messageId: 'beforeCloseNoSpace',
           severity: 1,
@@ -290,7 +307,7 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/jsx-wrap-multilines', () => {
+  describe('@stylistic/jsx-wrap-multilines', () => {
     it('should pass on correct multiline parens', () => {
       const code = `
         const Hello = () => {
@@ -306,7 +323,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-wrap-multilines',
+          ruleId: '@stylistic/jsx-wrap-multilines',
         }),
       ]));
     });
@@ -324,7 +341,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-wrap-multilines',
+          ruleId: '@stylistic/jsx-wrap-multilines',
           message: 'Missing parentheses around multilines JSX',
           messageId: 'missingParens',
           severity: 1,
@@ -345,7 +362,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: 'react/jsx-wrap-multilines',
+          ruleId: '@stylistic/jsx-wrap-multilines',
           message: 'Parentheses around JSX should be on separate lines',
           messageId: 'parensOnNewLines',
           severity: 1,
@@ -354,13 +371,15 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/no-children-prop', () => {
+  describe('@eslint-react/jsx-no-children-prop', () => {
     it('should pass on correct children prop', () => {
       const code = `<MyComponent>Children</MyComponent>`;
 
       expect(linter.verify(code, config, 'index.tsx'))
         .not.toEqual(expect.arrayContaining([
-          expect.objectContaining({ ruleId: 'react/no-children-prop' }),
+          expect.objectContaining({
+            ruleId: '@eslint-react/jsx-no-children-prop',
+          }),
         ]));
     });
 
@@ -370,17 +389,20 @@ describe('@poool/eslint-config-react', () => {
       expect(linter.verify(code, config, 'index.tsx'))
         .toEqual(expect.arrayContaining([
           expect.objectContaining({
-            ruleId: 'react/no-children-prop',
-            message: 'Do not pass children as props. Instead, nest children ' +
-              'between the opening and closing tags.',
-            messageId: 'nestChildren',
+            ruleId: '@eslint-react/jsx-no-children-prop',
+            message: 'Do not pass \'children\' as props.',
+            messageId: 'default',
             severity: 2,
           }),
         ]));
     });
   });
 
-  describe('react/no-this-in-sfc', () => {
+  /**
+   * @obsolete Has not been ported to @eslint-react/eslint-plugin
+   * @see https://eslint-react.xyz/docs/migrating-from-eslint-plugin-react#table
+   */
+  describe.skip('react/no-this-in-sfc', () => {
     it('should pass when no this in SFC', () => {
       const code = `
         function Foo(props) {
@@ -417,13 +439,15 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/self-closing-comp', () => {
+  describe('@stylistic/jsx-self-closing-comp', () => {
     it('should pass when self closing component without children', () => {
       const code = `const HelloJohn = <Hello name="John"/>;`;
 
       expect(linter.verify(code, config, 'index.tsx'))
         .not.toEqual(expect.arrayContaining([
-          expect.objectContaining({ ruleId: 'react/self-closing-comp' }),
+          expect.objectContaining({
+            ruleId: '@stylistic/jsx-self-closing-comp',
+          }),
         ]));
     });
 
@@ -433,7 +457,7 @@ describe('@poool/eslint-config-react', () => {
       expect(linter.verify(code, config, 'index.tsx'))
         .toEqual(expect.arrayContaining([
           expect.objectContaining({
-            ruleId: 'react/self-closing-comp',
+            ruleId: '@stylistic/jsx-self-closing-comp',
             message: 'Empty components are self-closing',
             messageId: 'notSelfClosing',
             severity: 1,
@@ -442,14 +466,14 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('react/void-dom-elements-no-children', () => {
+  describe('@eslint-react/dom-no-void-elements-with-children', () => {
     it('should pass when dom element has no children', () => {
       const code = `<div>Children</div>;`;
 
       expect(linter.verify(code, config, 'index.tsx'))
         .not.toEqual(expect.arrayContaining([
           expect.objectContaining({
-            ruleId: 'react/void-dom-elements-no-children',
+            ruleId: '@eslint-react/dom-no-void-elements-with-children',
           }),
         ]));
     });
@@ -460,9 +484,9 @@ describe('@poool/eslint-config-react', () => {
       expect(linter.verify(code, config, 'index.tsx'))
         .toEqual(expect.arrayContaining([
           expect.objectContaining({
-            ruleId: 'react/void-dom-elements-no-children',
-            message: 'Void DOM element <br /> cannot receive children.',
-            messageId: 'noChildrenInVoidEl',
+            ruleId: '@eslint-react/dom-no-void-elements-with-children',
+            message: `'br' is a void element tag and must not have children.`,
+            messageId: 'default',
             severity: 2,
           }),
         ]));

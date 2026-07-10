@@ -16,14 +16,14 @@
   "author": "Ugo Stephant <ugo@poool.fr>",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^9.0.0 || ^10.0.0",
     "react": "*",
     "react-dom": "*",
     "typescript-eslint": "^8.13.0"
   },
   "dependencies": {
-    "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "7.0.1"
+    "@eslint-react/eslint-plugin": "5.13.2",
+    "eslint-plugin-react-hooks": "7.1.1"
   },
   "devDependencies": {
     "@poool/eslint-config": "workspace:^",
