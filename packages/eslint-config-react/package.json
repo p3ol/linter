@@ -22,7 +22,7 @@
     "typescript-eslint": "^8.13.0"
   },
   "dependencies": {
-    "@eslint-react/eslint-plugin": "5.13.2",
+    "@eslint-react/eslint-plugin": "5.14.1",
     "eslint-plugin-react-hooks": "7.1.1"
   },
   "devDependencies": {
