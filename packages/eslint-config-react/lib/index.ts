@@ -23,7 +23,7 @@ const reactConfig: Linter.Config[] = defineConfig(
         children: 'never',
       }],
       '@stylistic/jsx-equals-spacing': [WARNING, 'never'],
-      '@stylistic/jsx-props-no-multi-spaces': WARNING,
+      '@stylistic/no-multi-spaces': WARNING,
       '@stylistic/jsx-tag-spacing': [WARNING, {
         closingSlash: 'never',
         beforeSelfClosing: 'always',

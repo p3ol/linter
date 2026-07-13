@@ -203,7 +203,7 @@ describe('@poool/eslint-config-react', () => {
     });
   });
 
-  describe('@stylistic/jsx-props-no-multi-spaces', () => {
+  describe('@stylistic/no-multi-spaces', () => {
     it('should pass on correct spacing between attributes', () => {
       const code = `<App cozy />`;
 
@@ -211,7 +211,7 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).not.toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: '@stylistic/jsx-props-no-multi-spaces',
+          ruleId: '@stylistic/no-multi-spaces',
         }),
       ]));
     });
@@ -223,8 +223,8 @@ describe('@poool/eslint-config-react', () => {
 
       expect(res).toEqual(expect.arrayContaining([
         expect.objectContaining({
-          ruleId: '@stylistic/jsx-props-no-multi-spaces',
-          message: 'Expected only one space between “too” and “spacy”',
+          ruleId: '@stylistic/no-multi-spaces',
+          message: 'Multiple spaces found before \'spacy\'.',
           severity: 1,
         }),
       ]));
