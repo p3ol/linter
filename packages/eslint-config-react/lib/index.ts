@@ -13,6 +13,15 @@ const reactConfig: Linter.Config[] = defineConfig(
   {
     files: ['**/*.{jsx,tsx}'],
     rules: {
+      '@eslint-react/no-array-index-key': OFF,
+      '@eslint-react/set-state-in-effect': OFF,
+      '@eslint-react/no-unnecessary-use-prefix': OFF,
+      '@eslint-react/no-clone-element': OFF,
+      '@eslint-react/no-children-to-array': OFF,
+      '@eslint-react/no-children-only': OFF,
+      '@eslint-react/no-children-count': OFF,
+      '@eslint-react/no-children-map': OFF,
+
       '@eslint-react/jsx-no-children-prop': ERROR,
       '@eslint-react/dom-no-void-elements-with-children': ERROR,
 
