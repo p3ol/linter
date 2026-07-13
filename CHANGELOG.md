@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.2](https://github.com/p3ol/linter/compare/v6.1.1...v6.1.2) (2026-07-13)
+
+
+### Bug Fixes
+
+* downgrade broken react-hooks dep ([17c74c9](https://github.com/p3ol/linter/commit/17c74c9aa455ff5e6f29b831daaa59a05f64a792))
+
+
+
+
+
 ## [6.1.1](https://github.com/p3ol/linter/compare/v6.1.0...v6.1.1) (2026-07-13)
 
 
