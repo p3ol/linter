@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.3](https://github.com/p3ol/linter/compare/v6.1.2...v6.1.3) (2026-07-13)
+
+
+### Bug Fixes
+
+* disable some annoying react rules ([e2955f6](https://github.com/p3ol/linter/commit/e2955f695ee7ce8f046f490c7c8014b1ec69a73c))
+
+
+
+
+
 ## [6.1.2](https://github.com/p3ol/linter/compare/v6.1.1...v6.1.2) (2026-07-13)
 
 
