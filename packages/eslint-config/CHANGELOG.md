@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.2.0](https://github.com/p3ol/eslint-config/compare/v6.1.3...v6.2.0) (2026-07-15)
+
+
+### Bug Fixes
+
+* increase max line length to 100 ([d96d1d8](https://github.com/p3ol/eslint-config/commit/d96d1d8e2366e1ed1f0d2b5ef364a11a6235ae46))
+* various import order issues ([521a27f](https://github.com/p3ol/eslint-config/commit/521a27fec34956d26518d20a2112e92ef6bd805c))
+
+
+
+
+
 ## [6.1.1](https://github.com/p3ol/eslint-config/compare/v6.1.0...v6.1.1) (2026-07-13)
 
 

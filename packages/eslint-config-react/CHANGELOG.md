@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.2.0](https://github.com/p3ol/eslint-config/compare/v6.1.3...v6.2.0) (2026-07-15)
+
+
+### Bug Fixes
+
+* upgrade various deps ([e1aaaa8](https://github.com/p3ol/eslint-config/commit/e1aaaa81a30561b4638dbac4e6bf972fcbc71ca2))
+
+
+
+
+
 ## [6.1.3](https://github.com/p3ol/eslint-config/compare/v6.1.2...v6.1.3) (2026-07-13)
 
 
