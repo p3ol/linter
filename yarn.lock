@@ -2189,7 +2189,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@poool/oxfmt-config@workspace:packages/oxfmt-config"
   dependencies:
-    "@stylistic/eslint-plugin": "npm:5.10.0"
     oxfmt: "npm:0.59.0"
   peerDependencies:
     oxfmt: ^0.59.0

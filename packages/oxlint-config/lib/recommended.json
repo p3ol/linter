@@ -102,6 +102,22 @@
     "valid-typeof": "error",
     "no-array-constructor": "error",
     "no-unused-expressions": "error",
+    "default-param-last": "error",
+    "new-cap": "warn",
+    "no-console": [
+      "warn",
+      {
+        "allow": [
+          "warn",
+          "error",
+          "time",
+          "timeEnd",
+          "timeStamp"
+        ]
+      }
+    ],
+
+    // Stylistic
     "@stylistic/arrow-parens": [
       "warn",
       "as-needed"
@@ -220,21 +236,11 @@
       "always"
     ],
     "@stylistic/template-curly-spacing": "error",
-    "default-param-last": "error",
-    "new-cap": "warn",
-    "no-console": [
-      "warn",
-      {
-        "allow": [
-          "warn",
-          "error",
-          "time",
-          "timeEnd",
-          "timeStamp"
-        ]
-      }
-    ],
+
+    // Import
     "import/newline-after-import": "warn",
+
+    // Typescript
     "typescript/ban-ts-comment": "error",
     "typescript/no-duplicate-enum-values": "error",
     "typescript/no-empty-object-type": "error",

@@ -1,0 +1,25 @@
+{
+  "name": "@poool/oxfmt-config",
+  "version": "6.1.0",
+  "description": "Common Oxfmt rules we share between projects at Poool",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p3ol/linter.git",
+    "directory": "packages/oxfmt-config"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Ugo Stephant <ugo@poool.fr>",
+  "license": "MIT",
+  "peerDependencies": {
+    "oxfmt": "^0.59.0"
+  },
+  "devDependencies": {
+    "oxfmt": "0.59.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

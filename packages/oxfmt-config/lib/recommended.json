@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "insertFinalNewline": true,
+  "arrowParens": "avoid",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "endOfLine": "lf",
+  "objectWrap": "preserve",
+  "sortImports": {
+    "newlinesBetween": true,
+    "groups": [
+      "builtin",
+      "external",
+      ["internal", "subpath"],
+      ["parent", "sibling", "index"],
+      "style",
+      "unknown"
+    ]
+  },
+  "sortTailwindcss": {
+    "functions": ["classNames"]
+  },
+  "sortPackageJson": true,
+}
