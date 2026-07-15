@@ -245,6 +245,12 @@
     "perfectionist/sort-imports": [
       "warn",
       {
+        "customGroups": [
+          {
+            "groupName": "poool",
+            "elementNamePattern": ["^@poool", "^@p3ol"]
+          }
+        ],
         "groups": [
           ["type-builtin", "value-builtin"],
           ["type-external", "value-external"],
@@ -256,7 +262,7 @@
           "unknown"
         ],
         "type": "unsorted",
-        "newlines-between": "always",
+        "newlinesBetween": 1,
       }
     ],
 

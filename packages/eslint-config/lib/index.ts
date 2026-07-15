@@ -160,12 +160,19 @@ export const configs = {
             'builtin',
             'external',
             'internal',
-            ['parent', 'sibling', 'index', 'unknown'],
+            ['parent', 'sibling', 'index'],
+            'unknown',
           ],
           'newlines-between': 'always',
           pathGroups: [{
             pattern: '~/**',
             group: 'internal',
+          }, {
+            pattern: '@poool/**',
+            group: 'external',
+          }, {
+            pattern: '@p3ol/**',
+            group: 'external',
           }],
         }],
         'import-x/no-named-as-default': OFF,

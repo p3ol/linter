@@ -3,6 +3,7 @@
   "version": "6.1.0",
   "description": "Common Oxfmt rules we share between projects at Poool",
   "type": "module",
+  "main": "./lib/index.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/p3ol/linter.git",
@@ -15,7 +16,6 @@
   "license": "MIT",
   "peerDependencies": {
     "oxfmt": "^0.59.0"
-  "main": "./lib/index.ts",
   },
   "devDependencies": {
     "oxfmt": "0.59.0"

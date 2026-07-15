@@ -2202,9 +2202,9 @@ __metadata:
     "@stylistic/eslint-plugin": "npm:5.10.0"
     eslint-plugin-perfectionist: "npm:5.10.0"
     oxlint: "npm:1.74.0"
+    oxlint-tsgolint: "npm:0.24.0"
   peerDependencies:
     oxlint: ^1.66.0
-    oxlint-tsgolint: ^0.23.0
   languageName: unknown
   linkType: soft
 

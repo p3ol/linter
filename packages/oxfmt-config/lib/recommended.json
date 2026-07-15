@@ -21,7 +21,6 @@
       "external",
       "internal",
       ["parent", "sibling", "index"],
-      "style",
       "unknown"
     ]
   },
