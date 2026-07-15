@@ -110,7 +110,7 @@ export const configs = {
           offsetTernaryExpressions: false,
         }],
         '@stylistic/max-len': [WARNING, {
-          code: 80,
+          code: 100,
           ignorePattern: '^import .*',
         }],
         '@stylistic/quotes': [WARNING, 'single', {
