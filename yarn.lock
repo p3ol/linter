@@ -2185,7 +2185,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@poool/oxfmt-config@workspace:packages/oxfmt-config":
+"@poool/oxfmt-config@workspace:^, @poool/oxfmt-config@workspace:packages/oxfmt-config":
   version: 0.0.0-use.local
   resolution: "@poool/oxfmt-config@workspace:packages/oxfmt-config"
   dependencies:
@@ -2200,6 +2200,7 @@ __metadata:
   resolution: "@poool/oxlint-config@workspace:packages/oxlint-config"
   dependencies:
     "@stylistic/eslint-plugin": "npm:5.10.0"
+    eslint-plugin-perfectionist: "npm:5.10.0"
     oxlint: "npm:1.74.0"
   peerDependencies:
     oxlint: ^1.66.0
@@ -3086,7 +3087,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:8.64.0":
+"@typescript-eslint/utils@npm:8.64.0, @typescript-eslint/utils@npm:^8.62.1":
   version: 8.64.0
   resolution: "@typescript-eslint/utils@npm:8.64.0"
   dependencies:
@@ -4826,6 +4827,18 @@ __metadata:
   peerDependencies:
     oxlint: ~1.73.0
   checksum: 10c0/8e30a403e14f1a0e33e882a08bcae87f7576c41d4845f9b994ca30dd48de505b1a1a5efbeef1d81ce794fc0e32fd875ea955aed0d6601912a9a6dae05559b493
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-perfectionist@npm:5.10.0":
+  version: 5.10.0
+  resolution: "eslint-plugin-perfectionist@npm:5.10.0"
+  dependencies:
+    "@typescript-eslint/utils": "npm:^8.62.1"
+    natural-orderby: "npm:^5.0.0"
+  peerDependencies:
+    eslint: ^8.45.0 || ^9.0.0 || ^10.0.0
+  checksum: 10c0/55ab1c8261f18c75d88d3848b2b19215fba7b6617fa6cae2d118cc3933326d5348681c30f66d36c2f8407f783e899e1baee129a4dee932b312d322658b1ab6e2
   languageName: node
   linkType: hard
 
@@ -7589,6 +7602,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"natural-orderby@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "natural-orderby@npm:5.0.0"
+  checksum: 10c0/d4e8b3bf16636eedc0c99a4cd551cd371732dd8c9766f19c8e153946553d82c12527eab182b8e79d640681aa6cb718273b53662ccf88127d4726307b6e645b2b
+  languageName: node
+  linkType: hard
+
 "negotiator@npm:^0.6.3":
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
@@ -8581,6 +8601,7 @@ __metadata:
   dependencies:
     "@poool/eslint-config": "workspace:^"
     "@poool/eslint-config-react": "workspace:^"
+    "@poool/oxfmt-config": "workspace:^"
     "@swc/core": "npm:1.15.43"
     "@swc/jest": "npm:0.2.39"
     "@types/eslint": "npm:9.6.1"

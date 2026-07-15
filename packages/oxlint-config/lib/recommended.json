@@ -6,7 +6,8 @@
     "react"
   ],
   "jsPlugins": [
-    "@stylistic/eslint-plugin"
+    "@stylistic/eslint-plugin",
+    "eslint-plugin-perfectionist"
   ],
   "categories": {
     "correctness": "off"
@@ -174,7 +175,7 @@
     "@stylistic/max-len": [
       "warn",
       {
-        "code": 80,
+        "code": 100,
         "ignorePattern": "^import .*"
       }
     ],
@@ -239,6 +240,25 @@
 
     // Import
     "import/newline-after-import": "warn",
+
+    // Perfectionist
+    "perfectionist/sort-imports": [
+      "warn",
+      {
+        "groups": [
+          ["type-builtin", "value-builtin"],
+          ["type-external", "value-external"],
+          ["type-internal", "value-internal"],
+          [
+            "type-parent", "type-sibling", "type-index",
+            "parent", "sibling", "index"
+          ],
+          "unknown"
+        ],
+        "type": "unsorted",
+        "newlines-between": "always",
+      }
+    ],
 
     // Typescript
     "typescript/ban-ts-comment": "error",
@@ -415,6 +435,6 @@
       "env": {
         "jest": true
       }
-    },
+    }
   ]
 }
