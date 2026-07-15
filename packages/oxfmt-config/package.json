@@ -15,6 +15,7 @@
   "license": "MIT",
   "peerDependencies": {
     "oxfmt": "^0.59.0"
+  "main": "./lib/index.ts",
   },
   "devDependencies": {
     "oxfmt": "0.59.0"

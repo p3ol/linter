@@ -19,7 +19,7 @@
     "groups": [
       "builtin",
       "external",
-      ["internal", "subpath"],
+      "internal",
       ["parent", "sibling", "index"],
       "style",
       "unknown"
@@ -28,5 +28,5 @@
   "sortTailwindcss": {
     "functions": ["classNames"]
   },
-  "sortPackageJson": true,
+  "sortPackageJson": true
 }
