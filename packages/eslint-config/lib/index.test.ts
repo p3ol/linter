@@ -189,7 +189,7 @@ export interface ServerEvents {
       expect(linter.verify(code, config, 'index.ts'))
         .toEqual(expect.arrayContaining([expect.objectContaining({
           ruleId: '@stylistic/max-len',
-          message: 'This line has a length of 116. Maximum allowed is 80.',
+          message: 'This line has a length of 116. Maximum allowed is 100.',
           severity: 1,
         })]));
     });
