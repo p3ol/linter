@@ -443,9 +443,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-react/ast@npm:5.14.7":
-  version: 5.14.7
-  resolution: "@eslint-react/ast@npm:5.14.7"
+"@eslint-react/ast@npm:5.14.10":
+  version: 5.14.10
+  resolution: "@eslint-react/ast@npm:5.14.10"
   dependencies:
     "@typescript-eslint/types": "npm:^8.63.0"
     "@typescript-eslint/typescript-estree": "npm:^8.63.0"
@@ -454,19 +454,19 @@ __metadata:
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/cfe79b40ebb1959c07c7373b365c57a176ec733a96dc82ffd38c0c17c32631eb2d45681f8c928fb22418aa50104ced64a2dc6d310ab5b687a431f2bfb39e0546
+  checksum: 10c0/5f5e6e389eacde361f63d7f2b63192d12528b6174828a2580864db9c2ee5b51243e129b7b28f1ba8df43b16f13d8d0e2bfafbbde652db24072f19b2099e98d99
   languageName: node
   linkType: hard
 
-"@eslint-react/core@npm:5.14.7":
-  version: 5.14.7
-  resolution: "@eslint-react/core@npm:5.14.7"
+"@eslint-react/core@npm:5.14.10":
+  version: 5.14.10
+  resolution: "@eslint-react/core@npm:5.14.10"
   dependencies:
-    "@eslint-react/ast": "npm:5.14.7"
-    "@eslint-react/eslint": "npm:5.14.7"
-    "@eslint-react/jsx": "npm:5.14.7"
-    "@eslint-react/shared": "npm:5.14.7"
-    "@eslint-react/var": "npm:5.14.7"
+    "@eslint-react/ast": "npm:5.14.10"
+    "@eslint-react/eslint": "npm:5.14.10"
+    "@eslint-react/jsx": "npm:5.14.10"
+    "@eslint-react/shared": "npm:5.14.10"
+    "@eslint-react/var": "npm:5.14.10"
     "@typescript-eslint/scope-manager": "npm:^8.63.0"
     "@typescript-eslint/types": "npm:^8.63.0"
     "@typescript-eslint/utils": "npm:^8.63.0"
@@ -474,79 +474,79 @@ __metadata:
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/5b12578a5040236620719b0654d816ba240069e32bcf97606173215006319c30f33c923d19b65446eb5191acfd93ca86e9920041ef283204968b27c807bb88ef
+  checksum: 10c0/eba21bdfabd229cf00d6c15db5a5c927829b21dcf1eba14e2f8181668ed583c58f17f151507e13c8ad587072d00bf111c89e54896f9d517e18bddd0ece658a6e
   languageName: node
   linkType: hard
 
-"@eslint-react/eslint-plugin@npm:5.14.7":
-  version: 5.14.7
-  resolution: "@eslint-react/eslint-plugin@npm:5.14.7"
+"@eslint-react/eslint-plugin@npm:5.14.10":
+  version: 5.14.10
+  resolution: "@eslint-react/eslint-plugin@npm:5.14.10"
   dependencies:
-    "@eslint-react/shared": "npm:5.14.7"
-    eslint-plugin-react-dom: "npm:5.14.7"
-    eslint-plugin-react-jsx: "npm:5.14.7"
-    eslint-plugin-react-naming-convention: "npm:5.14.7"
-    eslint-plugin-react-rsc: "npm:5.14.7"
-    eslint-plugin-react-web-api: "npm:5.14.7"
-    eslint-plugin-react-x: "npm:5.14.7"
+    "@eslint-react/shared": "npm:5.14.10"
+    eslint-plugin-react-dom: "npm:5.14.10"
+    eslint-plugin-react-jsx: "npm:5.14.10"
+    eslint-plugin-react-naming-convention: "npm:5.14.10"
+    eslint-plugin-react-rsc: "npm:5.14.10"
+    eslint-plugin-react-web-api: "npm:5.14.10"
+    eslint-plugin-react-x: "npm:5.14.10"
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/063001c1d7f177414f328a2bf29fd4a5bd24f03e144e5e07de6cf9b23d93618afbd53c90fbd790245d732682fcdd6b2d6ab809047593cf67725b080e599237dc
+  checksum: 10c0/fb62d4fba83d3c67558ecbfdce686e89f532d954841c9d6fb1bb5777866d3278b0684bac08e4056628bee53f3765bb64f2b381d3b12fd1867e29064e3a61861d
   languageName: node
   linkType: hard
 
-"@eslint-react/eslint@npm:5.14.7":
-  version: 5.14.7
-  resolution: "@eslint-react/eslint@npm:5.14.7"
+"@eslint-react/eslint@npm:5.14.10":
+  version: 5.14.10
+  resolution: "@eslint-react/eslint@npm:5.14.10"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.63.0"
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/233c861c3d0f8fa882884bd5fa235d65dca51da1ad1ddaa55f8ec2c66789e9133573666d77fd4db365c3090c8f4816218f4a035b5b31b944c187b9f378482ed3
+  checksum: 10c0/59fb8ae8e20a9f8274a449e760ed6a1c7dac733769837770cf400d4744781205ff603fe6ed9a2ee5381ab97bc423929cebe79e4c703a025197a2c0df2b9277c5
   languageName: node
   linkType: hard
 
-"@eslint-react/jsx@npm:5.14.7":
-  version: 5.14.7
-  resolution: "@eslint-react/jsx@npm:5.14.7"
+"@eslint-react/jsx@npm:5.14.10":
+  version: 5.14.10
+  resolution: "@eslint-react/jsx@npm:5.14.10"
   dependencies:
-    "@eslint-react/ast": "npm:5.14.7"
-    "@eslint-react/eslint": "npm:5.14.7"
-    "@eslint-react/shared": "npm:5.14.7"
-    "@eslint-react/var": "npm:5.14.7"
+    "@eslint-react/ast": "npm:5.14.10"
+    "@eslint-react/eslint": "npm:5.14.10"
+    "@eslint-react/shared": "npm:5.14.10"
+    "@eslint-react/var": "npm:5.14.10"
     "@typescript-eslint/types": "npm:^8.63.0"
     "@typescript-eslint/utils": "npm:^8.63.0"
     ts-pattern: "npm:^5.9.0"
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/46ad5bdce80f86e10b6aee861db783b529c93012709bb3b95907df91fb7389559a8ada37e66b0b9c53d3922d2a82582e8b854c56546b417defc0715c7b7ff5f0
+  checksum: 10c0/d67fdee4dc8477bab0139e66570779ac3f7d953010d3bb225806dd07b01a51f79df7a0e8cf105da3817753c4720aa45d2b9c54cc31ec3392c251f6a7d3ade9b8
   languageName: node
   linkType: hard
 
-"@eslint-react/shared@npm:5.14.7":
-  version: 5.14.7
-  resolution: "@eslint-react/shared@npm:5.14.7"
+"@eslint-react/shared@npm:5.14.10":
+  version: 5.14.10
+  resolution: "@eslint-react/shared@npm:5.14.10"
   dependencies:
-    "@eslint-react/eslint": "npm:5.14.7"
+    "@eslint-react/eslint": "npm:5.14.10"
     "@typescript-eslint/utils": "npm:^8.63.0"
     ts-pattern: "npm:^5.9.0"
     zod: "npm:^3.25.0 || ^4.0.0"
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/77b00ae2ae4c55fdd507f0bd4a5b125b8798d7099ab805480cec1d7f30648bb86b8d4e24617c356f06f1357db94e6b74daaa9b579877a4ec200f208910f2d119
+  checksum: 10c0/4b6e9b3fe004a27569e60e258a39647381ed6b0e8ec42ba308abc2c6cef0b23a99cb5d05c681a2b189f359a0df2cbb93d46de922ea9a22a1404d699cabb25f6c
   languageName: node
   linkType: hard
 
-"@eslint-react/var@npm:5.14.7":
-  version: 5.14.7
-  resolution: "@eslint-react/var@npm:5.14.7"
+"@eslint-react/var@npm:5.14.10":
+  version: 5.14.10
+  resolution: "@eslint-react/var@npm:5.14.10"
   dependencies:
-    "@eslint-react/ast": "npm:5.14.7"
-    "@eslint-react/eslint": "npm:5.14.7"
+    "@eslint-react/ast": "npm:5.14.10"
+    "@eslint-react/eslint": "npm:5.14.10"
     "@typescript-eslint/scope-manager": "npm:^8.63.0"
     "@typescript-eslint/types": "npm:^8.63.0"
     "@typescript-eslint/utils": "npm:^8.63.0"
@@ -554,7 +554,7 @@ __metadata:
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/78590a498f5edca3ff322ebfc5a17bf54d8b3be3f5a93803247f8cf64e3b1aee42cb59f2315fa2b278004af996d589dde1f7e76db14135c50d7d682223c54c46
+  checksum: 10c0/dfa7e3c88d214e9156aa52f46b315f72a118a4638a2af8d342e5e23e628fbcfc04245cdaec06957326015f4d3013e404d21804c70f25ba3b58506e16f5a2825d
   languageName: node
   linkType: hard
 
@@ -1828,6 +1828,139 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@oxfmt/binding-android-arm-eabi@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-android-arm-eabi@npm:0.59.0"
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-android-arm64@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-android-arm64@npm:0.59.0"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-darwin-arm64@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-darwin-arm64@npm:0.59.0"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-darwin-x64@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-darwin-x64@npm:0.59.0"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-freebsd-x64@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-freebsd-x64@npm:0.59.0"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-arm-gnueabihf@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-arm-gnueabihf@npm:0.59.0"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-arm-musleabihf@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-arm-musleabihf@npm:0.59.0"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-arm64-gnu@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-arm64-gnu@npm:0.59.0"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-arm64-musl@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-arm64-musl@npm:0.59.0"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-ppc64-gnu@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-ppc64-gnu@npm:0.59.0"
+  conditions: os=linux & cpu=ppc64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-riscv64-gnu@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-riscv64-gnu@npm:0.59.0"
+  conditions: os=linux & cpu=riscv64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-riscv64-musl@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-riscv64-musl@npm:0.59.0"
+  conditions: os=linux & cpu=riscv64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-s390x-gnu@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-s390x-gnu@npm:0.59.0"
+  conditions: os=linux & cpu=s390x & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-x64-gnu@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-x64-gnu@npm:0.59.0"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-linux-x64-musl@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-linux-x64-musl@npm:0.59.0"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-openharmony-arm64@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-openharmony-arm64@npm:0.59.0"
+  conditions: os=openharmony & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-win32-arm64-msvc@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-win32-arm64-msvc@npm:0.59.0"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-win32-ia32-msvc@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-win32-ia32-msvc@npm:0.59.0"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@oxfmt/binding-win32-x64-msvc@npm:0.59.0":
+  version: 0.59.0
+  resolution: "@oxfmt/binding-win32-x64-msvc@npm:0.59.0"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
 "@oxlint-tsgolint/darwin-arm64@npm:0.24.0":
   version: 0.24.0
   resolution: "@oxlint-tsgolint/darwin-arm64@npm:0.24.0"
@@ -1870,135 +2003,135 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oxlint/binding-android-arm-eabi@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-android-arm-eabi@npm:1.73.0"
+"@oxlint/binding-android-arm-eabi@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-android-arm-eabi@npm:1.74.0"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@oxlint/binding-android-arm64@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-android-arm64@npm:1.73.0"
+"@oxlint/binding-android-arm64@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-android-arm64@npm:1.74.0"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@oxlint/binding-darwin-arm64@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-darwin-arm64@npm:1.73.0"
+"@oxlint/binding-darwin-arm64@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-darwin-arm64@npm:1.74.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@oxlint/binding-darwin-x64@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-darwin-x64@npm:1.73.0"
+"@oxlint/binding-darwin-x64@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-darwin-x64@npm:1.74.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@oxlint/binding-freebsd-x64@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-freebsd-x64@npm:1.73.0"
+"@oxlint/binding-freebsd-x64@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-freebsd-x64@npm:1.74.0"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-arm-gnueabihf@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-arm-gnueabihf@npm:1.73.0"
+"@oxlint/binding-linux-arm-gnueabihf@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-arm-gnueabihf@npm:1.74.0"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-arm-musleabihf@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-arm-musleabihf@npm:1.73.0"
+"@oxlint/binding-linux-arm-musleabihf@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-arm-musleabihf@npm:1.74.0"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-arm64-gnu@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-arm64-gnu@npm:1.73.0"
+"@oxlint/binding-linux-arm64-gnu@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-arm64-gnu@npm:1.74.0"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-arm64-musl@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-arm64-musl@npm:1.73.0"
+"@oxlint/binding-linux-arm64-musl@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-arm64-musl@npm:1.74.0"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-ppc64-gnu@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-ppc64-gnu@npm:1.73.0"
+"@oxlint/binding-linux-ppc64-gnu@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-ppc64-gnu@npm:1.74.0"
   conditions: os=linux & cpu=ppc64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-riscv64-gnu@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-riscv64-gnu@npm:1.73.0"
+"@oxlint/binding-linux-riscv64-gnu@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-riscv64-gnu@npm:1.74.0"
   conditions: os=linux & cpu=riscv64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-riscv64-musl@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-riscv64-musl@npm:1.73.0"
+"@oxlint/binding-linux-riscv64-musl@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-riscv64-musl@npm:1.74.0"
   conditions: os=linux & cpu=riscv64 & libc=musl
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-s390x-gnu@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-s390x-gnu@npm:1.73.0"
+"@oxlint/binding-linux-s390x-gnu@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-s390x-gnu@npm:1.74.0"
   conditions: os=linux & cpu=s390x & libc=glibc
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-x64-gnu@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-x64-gnu@npm:1.73.0"
+"@oxlint/binding-linux-x64-gnu@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-x64-gnu@npm:1.74.0"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@oxlint/binding-linux-x64-musl@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-linux-x64-musl@npm:1.73.0"
+"@oxlint/binding-linux-x64-musl@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-linux-x64-musl@npm:1.74.0"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@oxlint/binding-openharmony-arm64@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-openharmony-arm64@npm:1.73.0"
+"@oxlint/binding-openharmony-arm64@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-openharmony-arm64@npm:1.74.0"
   conditions: os=openharmony & cpu=arm64
   languageName: node
   linkType: hard
 
-"@oxlint/binding-win32-arm64-msvc@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-win32-arm64-msvc@npm:1.73.0"
+"@oxlint/binding-win32-arm64-msvc@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-win32-arm64-msvc@npm:1.74.0"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@oxlint/binding-win32-ia32-msvc@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-win32-ia32-msvc@npm:1.73.0"
+"@oxlint/binding-win32-ia32-msvc@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-win32-ia32-msvc@npm:1.74.0"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@oxlint/binding-win32-x64-msvc@npm:1.73.0":
-  version: 1.73.0
-  resolution: "@oxlint/binding-win32-x64-msvc@npm:1.73.0"
+"@oxlint/binding-win32-x64-msvc@npm:1.74.0":
+  version: 1.74.0
+  resolution: "@oxlint/binding-win32-x64-msvc@npm:1.74.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2021,7 +2154,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@poool/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
-    "@eslint-react/eslint-plugin": "npm:5.14.7"
+    "@eslint-react/eslint-plugin": "npm:5.14.10"
     "@poool/eslint-config": "workspace:^"
     eslint-plugin-react-hooks: "npm:7.0.1"
     react: "npm:19.2.7"
@@ -2052,12 +2185,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@poool/oxfmt-config@workspace:packages/oxfmt-config":
+  version: 0.0.0-use.local
+  resolution: "@poool/oxfmt-config@workspace:packages/oxfmt-config"
+  dependencies:
+    "@stylistic/eslint-plugin": "npm:5.10.0"
+    oxfmt: "npm:0.59.0"
+  peerDependencies:
+    oxfmt: ^0.59.0
+  languageName: unknown
+  linkType: soft
+
 "@poool/oxlint-config@workspace:packages/oxlint-config":
   version: 0.0.0-use.local
   resolution: "@poool/oxlint-config@workspace:packages/oxlint-config"
   dependencies:
     "@stylistic/eslint-plugin": "npm:5.10.0"
-    oxlint: "npm:1.73.0"
+    oxlint: "npm:1.74.0"
   peerDependencies:
     oxlint: ^1.66.0
     oxlint-tsgolint: ^0.23.0
@@ -2496,44 +2640,44 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@turbo/darwin-64@npm:2.10.4":
-  version: 2.10.4
-  resolution: "@turbo/darwin-64@npm:2.10.4"
+"@turbo/darwin-64@npm:2.10.5":
+  version: 2.10.5
+  resolution: "@turbo/darwin-64@npm:2.10.5"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@turbo/darwin-arm64@npm:2.10.4":
-  version: 2.10.4
-  resolution: "@turbo/darwin-arm64@npm:2.10.4"
+"@turbo/darwin-arm64@npm:2.10.5":
+  version: 2.10.5
+  resolution: "@turbo/darwin-arm64@npm:2.10.5"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@turbo/linux-64@npm:2.10.4":
-  version: 2.10.4
-  resolution: "@turbo/linux-64@npm:2.10.4"
+"@turbo/linux-64@npm:2.10.5":
+  version: 2.10.5
+  resolution: "@turbo/linux-64@npm:2.10.5"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@turbo/linux-arm64@npm:2.10.4":
-  version: 2.10.4
-  resolution: "@turbo/linux-arm64@npm:2.10.4"
+"@turbo/linux-arm64@npm:2.10.5":
+  version: 2.10.5
+  resolution: "@turbo/linux-arm64@npm:2.10.5"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@turbo/windows-64@npm:2.10.4":
-  version: 2.10.4
-  resolution: "@turbo/windows-64@npm:2.10.4"
+"@turbo/windows-64@npm:2.10.5":
+  version: 2.10.5
+  resolution: "@turbo/windows-64@npm:2.10.5"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@turbo/windows-arm64@npm:2.10.4":
-  version: 2.10.4
-  resolution: "@turbo/windows-arm64@npm:2.10.4"
+"@turbo/windows-arm64@npm:2.10.5":
+  version: 2.10.5
+  resolution: "@turbo/windows-arm64@npm:2.10.5"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
@@ -2744,39 +2888,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:8.63.0":
-  version: 8.63.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:8.63.0"
+"@typescript-eslint/eslint-plugin@npm:8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:8.64.0"
   dependencies:
     "@eslint-community/regexpp": "npm:^4.12.2"
-    "@typescript-eslint/scope-manager": "npm:8.63.0"
-    "@typescript-eslint/type-utils": "npm:8.63.0"
-    "@typescript-eslint/utils": "npm:8.63.0"
-    "@typescript-eslint/visitor-keys": "npm:8.63.0"
+    "@typescript-eslint/scope-manager": "npm:8.64.0"
+    "@typescript-eslint/type-utils": "npm:8.64.0"
+    "@typescript-eslint/utils": "npm:8.64.0"
+    "@typescript-eslint/visitor-keys": "npm:8.64.0"
     ignore: "npm:^7.0.5"
     natural-compare: "npm:^1.4.0"
     ts-api-utils: "npm:^2.5.0"
   peerDependencies:
-    "@typescript-eslint/parser": ^8.63.0
+    "@typescript-eslint/parser": ^8.64.0
     eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
     typescript: ">=4.8.4 <6.1.0"
-  checksum: 10c0/906a406d85ad80cbe06cb688d4382c34dfb36ebfbd710814f7f9651265b88cf53684ee5275a402eb0eb1243628c504019714f00c1331e54d499cdc7d7c14b5ba
+  checksum: 10c0/c4b77c05eb2284842583dbc6a0096c50b8f6a73696c431dbf78da555ca1a84f7504d089058e7a7daa2a5f9ebab89523ddfcfd561a2111aeb166a8e862d1801b3
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.63.0":
-  version: 8.63.0
-  resolution: "@typescript-eslint/parser@npm:8.63.0"
+"@typescript-eslint/parser@npm:8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/parser@npm:8.64.0"
   dependencies:
-    "@typescript-eslint/scope-manager": "npm:8.63.0"
-    "@typescript-eslint/types": "npm:8.63.0"
-    "@typescript-eslint/typescript-estree": "npm:8.63.0"
-    "@typescript-eslint/visitor-keys": "npm:8.63.0"
+    "@typescript-eslint/scope-manager": "npm:8.64.0"
+    "@typescript-eslint/types": "npm:8.64.0"
+    "@typescript-eslint/typescript-estree": "npm:8.64.0"
+    "@typescript-eslint/visitor-keys": "npm:8.64.0"
     debug: "npm:^4.4.3"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
     typescript: ">=4.8.4 <6.1.0"
-  checksum: 10c0/28fd1db23ff16627936a0d630c6761df1d17046147b6e0ce6a144d60c0fbeddc756c3208e552f9e53c4d6a35f554205f7de3184b1ab45220a2fbc3bb8d1ac62b
+  checksum: 10c0/a5a89fd21775ebb9d31a6a5e191a16f03515e34629271c33b96c4587b25e4c2c59988d50bf3dbed68fad9151fc5acdfac3eaf42b004dfcea6e3cc84257e85775
   languageName: node
   linkType: hard
 
@@ -2793,6 +2937,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/project-service@npm:8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/project-service@npm:8.64.0"
+  dependencies:
+    "@typescript-eslint/tsconfig-utils": "npm:^8.64.0"
+    "@typescript-eslint/types": "npm:^8.64.0"
+    debug: "npm:^4.4.3"
+  peerDependencies:
+    typescript: ">=4.8.4 <6.1.0"
+  checksum: 10c0/855138c17134b7eaa200bb0e6d5acbf7e2190a1bf20e32fe3613461b90bfac5f3716cd261309c3d139d726c72a77ce5e876aa89ac320ad481c9e6f6ebaf2e66c
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/scope-manager@npm:8.63.0, @typescript-eslint/scope-manager@npm:^8.58.0, @typescript-eslint/scope-manager@npm:^8.63.0":
   version: 8.63.0
   resolution: "@typescript-eslint/scope-manager@npm:8.63.0"
@@ -2800,6 +2957,16 @@ __metadata:
     "@typescript-eslint/types": "npm:8.63.0"
     "@typescript-eslint/visitor-keys": "npm:8.63.0"
   checksum: 10c0/394245a25f852170adbdaaca9364d5d36a0e97e69e691e5594d5a3ced892a7eb78cf6e7a17cbc095490a168b60bb3ad6f6d48cd167c4b9cbc568bf0f785ab926
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/scope-manager@npm:8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/scope-manager@npm:8.64.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:8.64.0"
+    "@typescript-eslint/visitor-keys": "npm:8.64.0"
+  checksum: 10c0/1f1bcad7fcaf3d12af9d398046be3718333546c0a8967d823e21d2a008896b4afad9362450548f93dc2187e4c7444c8736a98448e6de3a26147404abc90abf0d
   languageName: node
   linkType: hard
 
@@ -2812,7 +2979,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:8.63.0, @typescript-eslint/type-utils@npm:^8.63.0":
+"@typescript-eslint/tsconfig-utils@npm:8.64.0, @typescript-eslint/tsconfig-utils@npm:^8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/tsconfig-utils@npm:8.64.0"
+  peerDependencies:
+    typescript: ">=4.8.4 <6.1.0"
+  checksum: 10c0/701e39ea88a0cbcad5f9657aed973b97db09fe8d5a03df58e4a4ddf307975a9f8270b11f4dad4195c27c37cd335fc44b1437a782f15de3c81b2ec2b6ea0f548d
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/type-utils@npm:8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/type-utils@npm:8.64.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:8.64.0"
+    "@typescript-eslint/typescript-estree": "npm:8.64.0"
+    "@typescript-eslint/utils": "npm:8.64.0"
+    debug: "npm:^4.4.3"
+    ts-api-utils: "npm:^2.5.0"
+  peerDependencies:
+    eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
+    typescript: ">=4.8.4 <6.1.0"
+  checksum: 10c0/2012ee888bb57bd2b49f8b20ec7bed71a53a7ea6e60adaa4c67e282861058e9e952e426e3d872504ed7c4b2ad6ef3df6a81f60afe207f916f525968836d29ea8
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/type-utils@npm:^8.63.0":
   version: 8.63.0
   resolution: "@typescript-eslint/type-utils@npm:8.63.0"
   dependencies:
@@ -2835,6 +3027,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/types@npm:8.64.0, @typescript-eslint/types@npm:^8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/types@npm:8.64.0"
+  checksum: 10c0/15ab2b38febfe9d01de801ddca277187e0525ee18c47c94c0d7babe27b69d5680a8e15c7dab5fdf97a050b15c2ab51385f11bc6d6db8264f5a834fa80a83bac1
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/typescript-estree@npm:8.63.0, @typescript-eslint/typescript-estree@npm:^8.63.0":
   version: 8.63.0
   resolution: "@typescript-eslint/typescript-estree@npm:8.63.0"
@@ -2854,6 +3053,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/typescript-estree@npm:8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/typescript-estree@npm:8.64.0"
+  dependencies:
+    "@typescript-eslint/project-service": "npm:8.64.0"
+    "@typescript-eslint/tsconfig-utils": "npm:8.64.0"
+    "@typescript-eslint/types": "npm:8.64.0"
+    "@typescript-eslint/visitor-keys": "npm:8.64.0"
+    debug: "npm:^4.4.3"
+    minimatch: "npm:^10.2.2"
+    semver: "npm:^7.7.3"
+    tinyglobby: "npm:^0.2.15"
+    ts-api-utils: "npm:^2.5.0"
+  peerDependencies:
+    typescript: ">=4.8.4 <6.1.0"
+  checksum: 10c0/d6df6990f0381845c3d27b39290a4cae771de937ea8b7bec95a438d89ad5697208b4a1eb96bcc04498c9950882d33a66216a38295ac04b2de24d76cc74a79a0a
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/utils@npm:8.63.0, @typescript-eslint/utils@npm:^8.0.0, @typescript-eslint/utils@npm:^8.58.0, @typescript-eslint/utils@npm:^8.63.0":
   version: 8.63.0
   resolution: "@typescript-eslint/utils@npm:8.63.0"
@@ -2869,6 +3087,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/utils@npm:8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/utils@npm:8.64.0"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.9.1"
+    "@typescript-eslint/scope-manager": "npm:8.64.0"
+    "@typescript-eslint/types": "npm:8.64.0"
+    "@typescript-eslint/typescript-estree": "npm:8.64.0"
+  peerDependencies:
+    eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
+    typescript: ">=4.8.4 <6.1.0"
+  checksum: 10c0/3d734a9fd20db6895e5501abd667a7db6c39d5f4a0430ddb6b415be8271886742467a5a18eefd33d1fb2217740ef61f0cf282b28c653964b0a7d568ba70bebd2
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/visitor-keys@npm:8.63.0":
   version: 8.63.0
   resolution: "@typescript-eslint/visitor-keys@npm:8.63.0"
@@ -2876,6 +3109,16 @@ __metadata:
     "@typescript-eslint/types": "npm:8.63.0"
     eslint-visitor-keys: "npm:^5.0.0"
   checksum: 10c0/595b47b08efecc35d93a8ac072798f9dc2371a371f03a1a03ab134a8505fe422fc647014bd096eac75a3d487c5eecf24393048ca88ed06f759d00115c11dd8bc
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/visitor-keys@npm:8.64.0":
+  version: 8.64.0
+  resolution: "@typescript-eslint/visitor-keys@npm:8.64.0"
+  dependencies:
+    "@typescript-eslint/types": "npm:8.64.0"
+    eslint-visitor-keys: "npm:^5.0.0"
+  checksum: 10c0/23a5695c5d4ae876ea9a18cdce912ad7a9793f6fe5892da35f0adf3eefd6e39c5742095606329639eb64a4e44ca2810e23fd3a24c067eacec1bd4feebe293374
   languageName: node
   linkType: hard
 
@@ -4587,21 +4830,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-dom@npm:5.14.7":
-  version: 5.14.7
-  resolution: "eslint-plugin-react-dom@npm:5.14.7"
+"eslint-plugin-react-dom@npm:5.14.10":
+  version: 5.14.10
+  resolution: "eslint-plugin-react-dom@npm:5.14.10"
   dependencies:
-    "@eslint-react/ast": "npm:5.14.7"
-    "@eslint-react/eslint": "npm:5.14.7"
-    "@eslint-react/jsx": "npm:5.14.7"
-    "@eslint-react/shared": "npm:5.14.7"
+    "@eslint-react/ast": "npm:5.14.10"
+    "@eslint-react/eslint": "npm:5.14.10"
+    "@eslint-react/jsx": "npm:5.14.10"
+    "@eslint-react/shared": "npm:5.14.10"
     "@typescript-eslint/types": "npm:^8.63.0"
     "@typescript-eslint/utils": "npm:^8.63.0"
     compare-versions: "npm:^6.1.1"
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/924e4dbb43a85254254fad196ddb3324adb8c0bdd2ed7fdf2529a47b2a82e04c52e453e12352e92a7b35f112083c9a71dae843f7a4471f3fa5b98a1fdc4bd6af
+  checksum: 10c0/0539fe5d6a08dd5d9f0889fe11f8c2dd05838560e0880c76f33a071bf74441f43ddd42657abe13b47778866c59cc9ce64b3220203a8d0427b975c112fccddb09
   languageName: node
   linkType: hard
 
@@ -4620,69 +4863,69 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-jsx@npm:5.14.7":
-  version: 5.14.7
-  resolution: "eslint-plugin-react-jsx@npm:5.14.7"
+"eslint-plugin-react-jsx@npm:5.14.10":
+  version: 5.14.10
+  resolution: "eslint-plugin-react-jsx@npm:5.14.10"
   dependencies:
-    "@eslint-react/ast": "npm:5.14.7"
-    "@eslint-react/core": "npm:5.14.7"
-    "@eslint-react/eslint": "npm:5.14.7"
-    "@eslint-react/jsx": "npm:5.14.7"
-    "@eslint-react/shared": "npm:5.14.7"
+    "@eslint-react/ast": "npm:5.14.10"
+    "@eslint-react/core": "npm:5.14.10"
+    "@eslint-react/eslint": "npm:5.14.10"
+    "@eslint-react/jsx": "npm:5.14.10"
+    "@eslint-react/shared": "npm:5.14.10"
     "@typescript-eslint/types": "npm:^8.63.0"
     "@typescript-eslint/utils": "npm:^8.63.0"
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/8ad9c805ec3d1d504048fa92661f9b196549db10ac89b2aa9bea9278e7025c7fa7a66f294f44dadda2057b977607c7755b3080c062f0d14bdc40b50845d22999
+  checksum: 10c0/83577f679398e9169271568d140d0ae22e94430e0fd7b794eb8ab6d610789793960d4eb9906cb2428d507f0baebc30b5f491b3e3ff73b213206f3d7c6f9eee1c
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-naming-convention@npm:5.14.7":
-  version: 5.14.7
-  resolution: "eslint-plugin-react-naming-convention@npm:5.14.7"
+"eslint-plugin-react-naming-convention@npm:5.14.10":
+  version: 5.14.10
+  resolution: "eslint-plugin-react-naming-convention@npm:5.14.10"
   dependencies:
-    "@eslint-react/ast": "npm:5.14.7"
-    "@eslint-react/core": "npm:5.14.7"
-    "@eslint-react/eslint": "npm:5.14.7"
-    "@eslint-react/var": "npm:5.14.7"
+    "@eslint-react/ast": "npm:5.14.10"
+    "@eslint-react/core": "npm:5.14.10"
+    "@eslint-react/eslint": "npm:5.14.10"
+    "@eslint-react/var": "npm:5.14.10"
     "@typescript-eslint/types": "npm:^8.63.0"
     "@typescript-eslint/utils": "npm:^8.63.0"
     ts-pattern: "npm:^5.9.0"
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/dd5f02233687d817f88dfe1f516b361438b3eb8fb0d9cc362b6e0d4d7f1d063313e464fbb792e7bcdc269be54a0f895417654b5dc8491d637431ae268b24d471
+  checksum: 10c0/f54efd55489a40f4596084854869d9b90966c6fc0713edb32a30c635ed12617ed3ccccdb1ace7d3dd37b69aabdf598c454267e4f24c6ae8afdd5dcf54f2de46d
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-rsc@npm:5.14.7":
-  version: 5.14.7
-  resolution: "eslint-plugin-react-rsc@npm:5.14.7"
+"eslint-plugin-react-rsc@npm:5.14.10":
+  version: 5.14.10
+  resolution: "eslint-plugin-react-rsc@npm:5.14.10"
   dependencies:
-    "@eslint-react/ast": "npm:5.14.7"
-    "@eslint-react/core": "npm:5.14.7"
-    "@eslint-react/eslint": "npm:5.14.7"
-    "@eslint-react/shared": "npm:5.14.7"
-    "@eslint-react/var": "npm:5.14.7"
+    "@eslint-react/ast": "npm:5.14.10"
+    "@eslint-react/core": "npm:5.14.10"
+    "@eslint-react/eslint": "npm:5.14.10"
+    "@eslint-react/shared": "npm:5.14.10"
+    "@eslint-react/var": "npm:5.14.10"
     "@typescript-eslint/types": "npm:^8.63.0"
     "@typescript-eslint/utils": "npm:^8.63.0"
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/57505da0732387c8183793d5ccd69210a3ac78606deca70de10bae110c63ba17f3e11e4028ee87b4cd38b1154f90b46a0246906fd8280b13a84070543458df04
+  checksum: 10c0/a41ff935cc06a61aaa603fa519aa543e46685d6c483dc512763dc0791a40676c1f14b4f336b91176a7a3f256c094b842284ecf09f9b72046d8e9a85770661fb1
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-web-api@npm:5.14.7":
-  version: 5.14.7
-  resolution: "eslint-plugin-react-web-api@npm:5.14.7"
+"eslint-plugin-react-web-api@npm:5.14.10":
+  version: 5.14.10
+  resolution: "eslint-plugin-react-web-api@npm:5.14.10"
   dependencies:
-    "@eslint-react/ast": "npm:5.14.7"
-    "@eslint-react/core": "npm:5.14.7"
-    "@eslint-react/eslint": "npm:5.14.7"
-    "@eslint-react/shared": "npm:5.14.7"
-    "@eslint-react/var": "npm:5.14.7"
+    "@eslint-react/ast": "npm:5.14.10"
+    "@eslint-react/core": "npm:5.14.10"
+    "@eslint-react/eslint": "npm:5.14.10"
+    "@eslint-react/shared": "npm:5.14.10"
+    "@eslint-react/var": "npm:5.14.10"
     "@typescript-eslint/types": "npm:^8.63.0"
     "@typescript-eslint/utils": "npm:^8.63.0"
     birecord: "npm:^0.1.2"
@@ -4690,20 +4933,20 @@ __metadata:
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/8382836c1f5dd806c49b523a10e7821e77637fe3a920f7557b93338f28a0b0b719876f7bef5977c182448bda15681f92469cb23336da77d5d02161d6caf5f105
+  checksum: 10c0/c3f3e2aebba29da98051fcfee73b8a1c825d17f84664cb0424c47ead9aa4010fe8b855ce9897435c1b764d965a696f434aeb6b2242b004f7bcb6eb1a66521ee2
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-x@npm:5.14.7":
-  version: 5.14.7
-  resolution: "eslint-plugin-react-x@npm:5.14.7"
+"eslint-plugin-react-x@npm:5.14.10":
+  version: 5.14.10
+  resolution: "eslint-plugin-react-x@npm:5.14.10"
   dependencies:
-    "@eslint-react/ast": "npm:5.14.7"
-    "@eslint-react/core": "npm:5.14.7"
-    "@eslint-react/eslint": "npm:5.14.7"
-    "@eslint-react/jsx": "npm:5.14.7"
-    "@eslint-react/shared": "npm:5.14.7"
-    "@eslint-react/var": "npm:5.14.7"
+    "@eslint-react/ast": "npm:5.14.10"
+    "@eslint-react/core": "npm:5.14.10"
+    "@eslint-react/eslint": "npm:5.14.10"
+    "@eslint-react/jsx": "npm:5.14.10"
+    "@eslint-react/shared": "npm:5.14.10"
+    "@eslint-react/var": "npm:5.14.10"
     "@typescript-eslint/scope-manager": "npm:^8.63.0"
     "@typescript-eslint/type-utils": "npm:^8.63.0"
     "@typescript-eslint/types": "npm:^8.63.0"
@@ -4716,7 +4959,7 @@ __metadata:
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 10c0/d4de044740d57e2c096177d6d0dd627b4e230fe0108fc127495df6d802d09ca1db8d04b7c27cb59b97da6cd04f4cf9963ca76d9145cf474837a2075a386fef49
+  checksum: 10c0/1a6d31db1a8ceddde2467dca5c2bdcb687fc5fb7d3ca2d0a97e48d6363244ba4754f76b75a2642d7f96eae0ab03b1f667d6a1682c48ae10a8c59d60c72fa461b
   languageName: node
   linkType: hard
 
@@ -7768,6 +8011,83 @@ __metadata:
   languageName: node
   linkType: hard
 
+"oxfmt@npm:0.59.0":
+  version: 0.59.0
+  resolution: "oxfmt@npm:0.59.0"
+  dependencies:
+    "@oxfmt/binding-android-arm-eabi": "npm:0.59.0"
+    "@oxfmt/binding-android-arm64": "npm:0.59.0"
+    "@oxfmt/binding-darwin-arm64": "npm:0.59.0"
+    "@oxfmt/binding-darwin-x64": "npm:0.59.0"
+    "@oxfmt/binding-freebsd-x64": "npm:0.59.0"
+    "@oxfmt/binding-linux-arm-gnueabihf": "npm:0.59.0"
+    "@oxfmt/binding-linux-arm-musleabihf": "npm:0.59.0"
+    "@oxfmt/binding-linux-arm64-gnu": "npm:0.59.0"
+    "@oxfmt/binding-linux-arm64-musl": "npm:0.59.0"
+    "@oxfmt/binding-linux-ppc64-gnu": "npm:0.59.0"
+    "@oxfmt/binding-linux-riscv64-gnu": "npm:0.59.0"
+    "@oxfmt/binding-linux-riscv64-musl": "npm:0.59.0"
+    "@oxfmt/binding-linux-s390x-gnu": "npm:0.59.0"
+    "@oxfmt/binding-linux-x64-gnu": "npm:0.59.0"
+    "@oxfmt/binding-linux-x64-musl": "npm:0.59.0"
+    "@oxfmt/binding-openharmony-arm64": "npm:0.59.0"
+    "@oxfmt/binding-win32-arm64-msvc": "npm:0.59.0"
+    "@oxfmt/binding-win32-ia32-msvc": "npm:0.59.0"
+    "@oxfmt/binding-win32-x64-msvc": "npm:0.59.0"
+    tinypool: "npm:2.1.0"
+  peerDependencies:
+    svelte: ^5.0.0
+    vite-plus: "*"
+  dependenciesMeta:
+    "@oxfmt/binding-android-arm-eabi":
+      optional: true
+    "@oxfmt/binding-android-arm64":
+      optional: true
+    "@oxfmt/binding-darwin-arm64":
+      optional: true
+    "@oxfmt/binding-darwin-x64":
+      optional: true
+    "@oxfmt/binding-freebsd-x64":
+      optional: true
+    "@oxfmt/binding-linux-arm-gnueabihf":
+      optional: true
+    "@oxfmt/binding-linux-arm-musleabihf":
+      optional: true
+    "@oxfmt/binding-linux-arm64-gnu":
+      optional: true
+    "@oxfmt/binding-linux-arm64-musl":
+      optional: true
+    "@oxfmt/binding-linux-ppc64-gnu":
+      optional: true
+    "@oxfmt/binding-linux-riscv64-gnu":
+      optional: true
+    "@oxfmt/binding-linux-riscv64-musl":
+      optional: true
+    "@oxfmt/binding-linux-s390x-gnu":
+      optional: true
+    "@oxfmt/binding-linux-x64-gnu":
+      optional: true
+    "@oxfmt/binding-linux-x64-musl":
+      optional: true
+    "@oxfmt/binding-openharmony-arm64":
+      optional: true
+    "@oxfmt/binding-win32-arm64-msvc":
+      optional: true
+    "@oxfmt/binding-win32-ia32-msvc":
+      optional: true
+    "@oxfmt/binding-win32-x64-msvc":
+      optional: true
+  peerDependenciesMeta:
+    svelte:
+      optional: true
+    vite-plus:
+      optional: true
+  bin:
+    oxfmt: bin/oxfmt
+  checksum: 10c0/de40be77ee8cca8ea763e29d572eed59f508e48d76566035ba40d9f31ac99c19832c01fc8d62a64602506d508cefdb593eca7248b32186c001b20691b407eb04
+  languageName: node
+  linkType: hard
+
 "oxlint-tsgolint@npm:0.24.0":
   version: 0.24.0
   resolution: "oxlint-tsgolint@npm:0.24.0"
@@ -7797,29 +8117,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"oxlint@npm:1.73.0":
-  version: 1.73.0
-  resolution: "oxlint@npm:1.73.0"
+"oxlint@npm:1.74.0":
+  version: 1.74.0
+  resolution: "oxlint@npm:1.74.0"
   dependencies:
-    "@oxlint/binding-android-arm-eabi": "npm:1.73.0"
-    "@oxlint/binding-android-arm64": "npm:1.73.0"
-    "@oxlint/binding-darwin-arm64": "npm:1.73.0"
-    "@oxlint/binding-darwin-x64": "npm:1.73.0"
-    "@oxlint/binding-freebsd-x64": "npm:1.73.0"
-    "@oxlint/binding-linux-arm-gnueabihf": "npm:1.73.0"
-    "@oxlint/binding-linux-arm-musleabihf": "npm:1.73.0"
-    "@oxlint/binding-linux-arm64-gnu": "npm:1.73.0"
-    "@oxlint/binding-linux-arm64-musl": "npm:1.73.0"
-    "@oxlint/binding-linux-ppc64-gnu": "npm:1.73.0"
-    "@oxlint/binding-linux-riscv64-gnu": "npm:1.73.0"
-    "@oxlint/binding-linux-riscv64-musl": "npm:1.73.0"
-    "@oxlint/binding-linux-s390x-gnu": "npm:1.73.0"
-    "@oxlint/binding-linux-x64-gnu": "npm:1.73.0"
-    "@oxlint/binding-linux-x64-musl": "npm:1.73.0"
-    "@oxlint/binding-openharmony-arm64": "npm:1.73.0"
-    "@oxlint/binding-win32-arm64-msvc": "npm:1.73.0"
-    "@oxlint/binding-win32-ia32-msvc": "npm:1.73.0"
-    "@oxlint/binding-win32-x64-msvc": "npm:1.73.0"
+    "@oxlint/binding-android-arm-eabi": "npm:1.74.0"
+    "@oxlint/binding-android-arm64": "npm:1.74.0"
+    "@oxlint/binding-darwin-arm64": "npm:1.74.0"
+    "@oxlint/binding-darwin-x64": "npm:1.74.0"
+    "@oxlint/binding-freebsd-x64": "npm:1.74.0"
+    "@oxlint/binding-linux-arm-gnueabihf": "npm:1.74.0"
+    "@oxlint/binding-linux-arm-musleabihf": "npm:1.74.0"
+    "@oxlint/binding-linux-arm64-gnu": "npm:1.74.0"
+    "@oxlint/binding-linux-arm64-musl": "npm:1.74.0"
+    "@oxlint/binding-linux-ppc64-gnu": "npm:1.74.0"
+    "@oxlint/binding-linux-riscv64-gnu": "npm:1.74.0"
+    "@oxlint/binding-linux-riscv64-musl": "npm:1.74.0"
+    "@oxlint/binding-linux-s390x-gnu": "npm:1.74.0"
+    "@oxlint/binding-linux-x64-gnu": "npm:1.74.0"
+    "@oxlint/binding-linux-x64-musl": "npm:1.74.0"
+    "@oxlint/binding-openharmony-arm64": "npm:1.74.0"
+    "@oxlint/binding-win32-arm64-msvc": "npm:1.74.0"
+    "@oxlint/binding-win32-ia32-msvc": "npm:1.74.0"
+    "@oxlint/binding-win32-x64-msvc": "npm:1.74.0"
   peerDependencies:
     oxlint-tsgolint: ">=0.24.0"
     vite-plus: "*"
@@ -7869,7 +8189,7 @@ __metadata:
       optional: true
   bin:
     oxlint: bin/oxlint
-  checksum: 10c0/d6ac6634d445b9ab163094f9df1cf6048d25a51b6422bce72c5b59c6aeafacf36070cf6ed772579a17a4f14dedce0e46017cf71328974666908a2570d06caaf7
+  checksum: 10c0/a2c9c3dd08ffd2eddf5c5b946f07c1d66184924a29b7ae0699e23bb8fd906e940a245e3e0b10ffb0c918327b7cef858f9a1fef09eb130ddb6b24fd2f42d703cb
   languageName: node
   linkType: hard
 
@@ -8273,12 +8593,12 @@ __metadata:
     eslint-plugin-oxlint: "npm:1.73.0"
     jest: "npm:30.4.2"
     lerna: "npm:9.0.7"
-    oxlint: "npm:1.73.0"
+    oxlint: "npm:1.74.0"
     oxlint-tsgolint: "npm:0.24.0"
     ts-node: "npm:10.9.2"
-    turbo: "npm:2.10.4"
+    turbo: "npm:2.10.5"
     typescript: "npm:6.0.3"
-    typescript-eslint: "npm:8.63.0"
+    typescript-eslint: "npm:8.64.0"
     vitest: "npm:4.1.10"
   languageName: unknown
   linkType: soft
@@ -9298,6 +9618,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tinypool@npm:2.1.0":
+  version: 2.1.0
+  resolution: "tinypool@npm:2.1.0"
+  checksum: 10c0/9fb1c760558c6264e0f4cfde96a63b12450b43f1730fbe6274aa24ddbdf488745c08924d0dea7a1303b47d555416a6415f2113898c69b6ecf731e75ac95238a5
+  languageName: node
+  linkType: hard
+
 "tinyrainbow@npm:^3.1.0":
   version: 3.1.0
   resolution: "tinyrainbow@npm:3.1.0"
@@ -9427,16 +9754,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo@npm:2.10.4":
-  version: 2.10.4
-  resolution: "turbo@npm:2.10.4"
+"turbo@npm:2.10.5":
+  version: 2.10.5
+  resolution: "turbo@npm:2.10.5"
   dependencies:
-    "@turbo/darwin-64": "npm:2.10.4"
-    "@turbo/darwin-arm64": "npm:2.10.4"
-    "@turbo/linux-64": "npm:2.10.4"
-    "@turbo/linux-arm64": "npm:2.10.4"
-    "@turbo/windows-64": "npm:2.10.4"
-    "@turbo/windows-arm64": "npm:2.10.4"
+    "@turbo/darwin-64": "npm:2.10.5"
+    "@turbo/darwin-arm64": "npm:2.10.5"
+    "@turbo/linux-64": "npm:2.10.5"
+    "@turbo/linux-arm64": "npm:2.10.5"
+    "@turbo/windows-64": "npm:2.10.5"
+    "@turbo/windows-arm64": "npm:2.10.5"
   dependenciesMeta:
     "@turbo/darwin-64":
       optional: true
@@ -9452,7 +9779,7 @@ __metadata:
       optional: true
   bin:
     turbo: bin/turbo
-  checksum: 10c0/2d5d3b9de35c1ce8d442bd208f9076da41cfe0fd1add6d8f6ce1e3927ee188c2f4b81a48c70dabdbd2b1e982505e80272befa91556c03a64d39ad24cf7045bca
+  checksum: 10c0/081a8a4f4afe4026bde29ef9d0c98a1403437e9e72cd066973a82ec2f2482a1c6bd34973a997a23131520f37b9c063ba29a79583e18d0d70eeed8cd6baa1a003
   languageName: node
   linkType: hard
 
@@ -9507,18 +9834,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:8.63.0":
-  version: 8.63.0
-  resolution: "typescript-eslint@npm:8.63.0"
+"typescript-eslint@npm:8.64.0":
+  version: 8.64.0
+  resolution: "typescript-eslint@npm:8.64.0"
   dependencies:
-    "@typescript-eslint/eslint-plugin": "npm:8.63.0"
-    "@typescript-eslint/parser": "npm:8.63.0"
-    "@typescript-eslint/typescript-estree": "npm:8.63.0"
-    "@typescript-eslint/utils": "npm:8.63.0"
+    "@typescript-eslint/eslint-plugin": "npm:8.64.0"
+    "@typescript-eslint/parser": "npm:8.64.0"
+    "@typescript-eslint/typescript-estree": "npm:8.64.0"
+    "@typescript-eslint/utils": "npm:8.64.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
     typescript: ">=4.8.4 <6.1.0"
-  checksum: 10c0/3b71c97c28502d463e8c562c741bfd4134e329c0d5580268dbf7aa7ac08db7ce72ae6fbc4fdd155042e1a65589f15cc1e88abae87103e4a904fe833c7d508c0c
+  checksum: 10c0/1a3e3846d72588134810b2d525a248003ed0b7dfbda04bbee7dd9fef81a447f8c67a6c9e0012e8d24207ec8a9b116bc36490b44c38ce35560f47c51d585c7b26
   languageName: node
   linkType: hard
 
