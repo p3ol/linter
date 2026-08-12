@@ -3,7 +3,8 @@
   "version": "6.2.0",
   "description": "Common Oxlint rules we share between projects at Poool",
   "type": "module",
-  "main": "./lib/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
@@ -28,5 +29,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "clean": "rm -rf ./dist || true",
+    "build": "tsc -p tsconfig.build.json"
   }
 }
