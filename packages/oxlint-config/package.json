@@ -4,6 +4,7 @@
   "description": "Common Oxlint rules we share between projects at Poool",
   "type": "module",
   "main": "./lib/index.ts",
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/p3ol/linter.git",

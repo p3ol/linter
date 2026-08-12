@@ -1,0 +1,51 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`@poool/oxlint-config > should pass base rules 1`] = `
+[ExecaError: Command failed with exit code 1: oxlint --config packages/oxlint-config/lib/recommended.json --format agent tests/fixtures/base-rules.ts
+
+tests/fixtures/base-rules.ts:242:1: error eslint(no-global-assign): Read-only global 'Object' should not be modified. help: Use a local variable instead of modifying the global 'Object'.
+tests/fixtures/base-rules.ts:88:7: warning eslint(no-unused-vars): Variable 'unusedVar' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+tests/fixtures/base-rules.ts:2:1: warning import(newline-after-import): Expected 1 empty line after import statement not followed by another import. help: Add empty line(s) after import
+tests/fixtures/base-rules.ts:75:28: error eslint(default-param-last): Default parameters should be last help: Enforce default parameters to be last.
+tests/fixtures/base-rules.ts:80:1: warning eslint(no-console): Unexpected console statement. help: Supported methods are: warn, error, time, timeEnd, timeStamp.
+tests/fixtures/base-rules.ts:83:31: error eslint(no-empty): Unexpected empty block statements help: Remove this block or add a comment inside it
+tests/fixtures/base-rules.ts:102:17: error eslint(for-direction): The update clause in this loop moves the variable in the wrong direction help: Use \`while\` loop for intended infinite loop
+tests/fixtures/base-rules.ts:106:18: error eslint(for-direction): The update clause in this loop moves the variable in the wrong direction help: Use \`while\` loop for intended infinite loop
+tests/fixtures/base-rules.ts:118:35: error eslint(no-async-promise-executor): Promise executor functions should not be \`async\`. help: Remove the \`async\` keyword from the Promise executor function.
+tests/fixtures/base-rules.ts:125:5: error eslint(no-case-declarations): Unexpected lexical declaration in case block. help: Wrap the case body in braces \`{}\` to create an explicit block scope for the lexical declaration.
+tests/fixtures/base-rules.ts:138:17: error eslint(no-cond-assign): Expected a conditional expression and instead saw an assignment help: Consider wrapping the assignment in additional parentheses
+tests/fixtures/base-rules.ts:138:5: error eslint(no-constant-condition): Unexpected constant condition help: Update the condition to not be constant, or remove the condition entirely
+tests/fixtures/base-rules.ts:143:5: error eslint(no-compare-neg-zero): Do not use the === operator to compare against -0. help: Use Object.is(x, -0) to test equality with -0 and use 0 for other cases
+tests/fixtures/base-rules.ts:148:34: error eslint(no-constant-binary-expression): Unexpected constant binary expression help: This compares constantly with the left-hand side of the ===
+tests/fixtures/base-rules.ts:151:5: error eslint(no-constant-condition): Unexpected constant condition help: Update the condition to not be constant, or remove the condition entirely
+tests/fixtures/base-rules.ts:156:25: error eslint(no-control-regex): Unexpected control characters help: Avoid matching control characters in regular expressions. If intentional, consider using a Unicode escape instead.
+tests/fixtures/base-rules.ts:159:1: error eslint(no-debugger): \`debugger\` statement is not allowed help: Remove the debugger statement
+tests/fixtures/base-rules.ts:176:12: error eslint(no-dupe-else-if): Duplicate conditions in if-else-if chain help: Remove or modify the duplicate condition, as its branch will never be executed.
+tests/fixtures/base-rules.ts:193:8: error eslint(no-duplicate-case): Duplicate case label help: Remove the duplicated case
+tests/fixtures/base-rules.ts:202:31: error eslint(no-empty-character-class): Empty character class will not match anything help: Remove the empty character class: \`[]\`
+tests/fixtures/base-rules.ts:205:14: error eslint(no-empty-pattern): Empty object binding pattern help: Passing \`null\` or \`undefined\` will result in runtime error because \`null\` and \`undefined\` cannot be destructured.
+tests/fixtures/base-rules.ts:209:3: error eslint(no-empty-static-block): Unexpected empty static blocks help: Remove this empty block or add content to it.
+tests/fixtures/base-rules.ts:216:3: error eslint(no-ex-assign): Do not assign to the exception parameter. help: Remove the assignment to the exception parameter, or refactor the code to use a different variable.
+tests/fixtures/base-rules.ts:221:34: error eslint(no-extra-boolean-cast): Redundant double negation help: Remove the double negation as it will already be coerced to a boolean
+tests/fixtures/base-rules.ts:227:3: error eslint(no-fallthrough): Expected a \`break\` statement before \`default\`. help: Use a \`break\` statement to prevent fallthrough, or add a comment to indicate intentional fallthrough.
+tests/fixtures/base-rules.ts:249:36: error eslint(no-invalid-regexp): Invalid regular expression: Unterminated character class help: Add the missing closing delimiter
+tests/fixtures/base-rules.ts:255:26: error eslint(no-loss-of-precision): This number literal will lose precision at runtime. help: Use a number literal representable by a 64-bit floating-point number, or use a \`BigInt\` literal (for example, \`9007199254740993n\`) for exact large integers.
+tests/fixtures/base-rules.ts:258:38: error eslint(no-misleading-character-class): Unexpected surrogate pair in character class. help: Add the Unicode flag 'u'.
+tests/fixtures/base-rules.ts:265:19: warning eslint(new-cap): A function with a name starting with an uppercase letter should only be used as a constructor. help: Use the new operator when calling this function, or add it to the exceptions list if it should not be called with new.
+tests/fixtures/base-rules.ts:36:30: warning @stylistic(no-trailing-spaces): Trailing spaces not allowed.
+tests/fixtures/base-rules.ts:30:1: warning @stylistic(max-len): This line has a length of 463. Maximum allowed is 100.
+tests/fixtures/base-rules.ts:65:1: warning @stylistic(spaced-comment): Expected space or tab after '//' in comment.
+tests/fixtures/base-rules.ts:17:22: warning @stylistic(arrow-parens): Unexpected parentheses around single function argument.
+tests/fixtures/base-rules.ts:21:22: warning @stylistic(comma-dangle): Missing trailing comma.
+tests/fixtures/base-rules.ts:39:20: warning @stylistic(padded-blocks): Block must not be padded by blank lines.
+tests/fixtures/base-rules.ts:41:23: warning @stylistic(padded-blocks): Block must not be padded by blank lines.
+tests/fixtures/base-rules.ts:57:33: error @stylistic(semi): Missing semicolon.
+tests/fixtures/base-rules.ts:60:42: warning @stylistic(space-before-function-paren): Missing space before function parentheses.
+tests/fixtures/base-rules.ts:68:28: error @stylistic(template-curly-spacing): Unexpected space(s) after '\${'.
+tests/fixtures/base-rules.ts:34:1: warning @stylistic(no-multiple-empty-lines): More than 1 blank line not allowed.
+tests/fixtures/base-rules.ts:47:1: warning @stylistic(padding-line-between-statements): Expected blank line before this statement.
+tests/fixtures/base-rules.ts:53:3: warning @stylistic(padding-line-between-statements): Expected blank line before this statement.
+tests/fixtures/base-rules.ts:25:1: error @stylistic(indent): Expected indentation of 0 spaces but found 2.
+tests/fixtures/base-rules.ts:26:1: error @stylistic(indent): Expected indentation of 2 spaces but found 4.
+tests/fixtures/base-rules.ts:27:1: error @stylistic(indent): Expected indentation of 0 spaces but found 2.]
+`;

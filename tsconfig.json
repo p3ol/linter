@@ -24,5 +24,7 @@
     "**/*.jsx",
     "eslint.config.js",
   ],
-  "exclude": ["**/dist/*"]
+  "exclude": [
+    "**/dist/*",
+  ]
 }
