@@ -6,7 +6,7 @@
   ],
   "name": "poool",
   "scripts": {
-    "lint": "oxlint --type-aware && eslint",
+    "lint": "oxlint --type-aware",
     "test": "vitest run",
     "p:base": "yarn workspace @poool/eslint-config",
     "p:react": "yarn workspace @poool/eslint-config-react",
