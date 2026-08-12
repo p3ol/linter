@@ -4,6 +4,6 @@
     "./packages/oxlint-config/lib/recommended.json"
   ],
   "ignorePatterns": [
-    "tests/fixtures"
+    "tests/fixtures/**"
   ]
 }
