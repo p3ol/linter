@@ -44,9 +44,9 @@
     "no-async-promise-executor": "error",
     "no-case-declarations": "error",
     "no-class-assign": "error",
-    "no-compare-neg-zero": "error",
-    "no-cond-assign": "error",
     "no-const-assign": "error",
+    "no-cond-assign": "error",
+    "no-compare-neg-zero": "error",
     "no-constant-binary-expression": "error",
     "no-constant-condition": "error",
     "no-control-regex": "error",
@@ -194,6 +194,14 @@
       }
     ],
     "@stylistic/no-trailing-spaces": "warn",
+    "@stylistic/padded-blocks": [
+      "warn",
+      {
+        "blocks": "never",
+        "classes": "never",
+        "switches": "never"
+      }
+    ],
     "@stylistic/padding-line-between-statements": [
       "warn",
       {
@@ -248,8 +256,10 @@
         "customGroups": [
           {
             "groupName": "poool",
+            "selector": "external",
+            "modifiers": ["type", "value"],
             "elementNamePattern": ["^@poool", "^@p3ol"]
-          }
+          },
         ],
         "groups": [
           ["type-builtin", "value-builtin"],
@@ -261,8 +271,8 @@
           ],
           "unknown"
         ],
-        "type": "unsorted",
         "newlinesBetween": 1,
+        "type": "unsorted",
       }
     ],
 
