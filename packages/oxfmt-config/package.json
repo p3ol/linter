@@ -17,7 +17,7 @@
   "author": "Ugo Stephant <ugo@poool.fr>",
   "license": "MIT",
   "peerDependencies": {
-    "oxfmt": "^0.59.0"
+    "oxfmt": ">=0.59.0 <1.0.0"
   },
   "devDependencies": {
     "oxfmt": "0.63.0"
