@@ -39,7 +39,7 @@
     "turbo": "2.10.9",
     "typescript": "npm:@typescript/typescript6@6.0.2",
     "typescript-eslint": "8.67.0",
-    "vitest": "4.1.10"
+    "vitest": "4.1.11"
   },
   "packageManager": "yarn@4.18.0"
 }
