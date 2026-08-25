@@ -1,15 +1,14 @@
 {
   "$schema": "https://dprint.dev/schemas/v0.json",
-  "incremental": true,
   "lineWidth": 100,
   "indentWidth": 2,
   "useTabs": false,
   "newLineKind": "lf",
   "typescript": {
     "quoteStyle": "alwaysSingle",
-    "jsx.quoteStyle": "preferSingle",
+    "jsx.quoteStyle": "preferDouble",
     "semiColons": "always",
-    "trailingCommas": "never",
+    "trailingCommas": "onlyMultiLine",
     "arrowFunction.useParentheses": "preferNone",
     "quoteProps": "asNeeded",
     "memberExpression.linePerExpression": false,
@@ -21,7 +20,6 @@
     "module.sortExportDeclarations": "maintain",
     "importDeclaration.forceMultiLine": "whenMultiple"
   },
-  "includes": ["**/*.{ts,tsx,js,jsx}"],
   "excludes": ["**/node_modules", "**/.yarn", "**/dist", "**/coverage", "**/tmp"],
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.93.4.wasm",

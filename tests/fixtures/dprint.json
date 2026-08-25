@@ -1,0 +1,4 @@
+{
+  "$schema": "https://dprint.dev/schemas/v0.json",
+  "extends": "../../packages/dprint-config/lib/recommended.json"
+}
