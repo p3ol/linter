@@ -19,7 +19,6 @@
     "importDeclaration.sortNamedImports": "maintain",
     "exportDeclaration.sortNamedExports": "maintain",
     "module.sortExportDeclarations": "maintain",
-    "importDeclaration.sortTypeOnlyImports": "first",
     "importDeclaration.forceMultiLine": "whenMultiple"
   },
   "includes": ["**/*.{ts,tsx,js,jsx}"],
