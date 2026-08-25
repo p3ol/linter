@@ -18,9 +18,11 @@
     "module.sortImportDeclarations": "maintain",
     "importDeclaration.sortNamedImports": "maintain",
     "exportDeclaration.sortNamedExports": "maintain",
-    "module.sortExportDeclarations": "maintain"
+    "module.sortExportDeclarations": "maintain",
+    "importDeclaration.sortTypeOnlyImports": "first",
+    "importDeclaration.forceMultiLine": "whenMultiple"
   },
-  "includes": ["**/*.{ts,tsx,js,jsx,mjs,cjs,json,md}"],
+  "includes": ["**/*.{ts,tsx,js,jsx}"],
   "excludes": ["**/node_modules", "**/.yarn", "**/dist", "**/coverage", "**/tmp"],
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.93.4.wasm",
