@@ -1,0 +1,29 @@
+{
+  "$schema": "https://dprint.dev/schemas/v0.json",
+  "incremental": true,
+  "lineWidth": 100,
+  "indentWidth": 2,
+  "useTabs": false,
+  "newLineKind": "lf",
+  "typescript": {
+    "quoteStyle": "alwaysSingle",
+    "jsx.quoteStyle": "preferSingle",
+    "semiColons": "always",
+    "trailingCommas": "never",
+    "arrowFunction.useParentheses": "preferNone",
+    "quoteProps": "asNeeded",
+    "memberExpression.linePerExpression": false,
+    "conditionalExpression.linePerExpression": true,
+    "objectExpression.spaceSurroundingProperties": true,
+    "module.sortImportDeclarations": "maintain",
+    "importDeclaration.sortNamedImports": "maintain",
+    "exportDeclaration.sortNamedExports": "maintain",
+    "module.sortExportDeclarations": "maintain"
+  },
+  "includes": ["**/*.{ts,tsx,js,jsx,mjs,cjs,json,md}"],
+  "excludes": ["**/node_modules", "**/.yarn", "**/dist", "**/coverage", "**/tmp"],
+  "plugins": [
+    "https://plugins.dprint.dev/typescript-0.93.4.wasm",
+    "https://plugins.dprint.dev/g-plane/malva-v0.16.0.wasm"
+  ]
+}
