@@ -5,6 +5,7 @@ exports[`@poool/oxlint-config > should pass base rules 1`] = `
 
 tests/fixtures/base-rules.ts:242:1: error eslint(no-global-assign): Read-only global 'Object' should not be modified. help: Use a local variable instead of modifying the global 'Object'.
 tests/fixtures/base-rules.ts:88:7: warning eslint(no-unused-vars): Variable 'unusedVar' is declared but never used. Unused variables should start with a '_'. help: Consider removing this declaration.
+tests/fixtures/base-rules.ts:251:3: error eslint(no-irregular-whitespace): Unexpected irregular whitespace help: Try to remove the irregular whitespace
 tests/fixtures/base-rules.ts:2:1: warning import(newline-after-import): Expected 1 empty line after import statement not followed by another import. help: Add empty line(s) after import
 tests/fixtures/base-rules.ts:75:28: error eslint(default-param-last): Default parameters should be last help: Enforce default parameters to be last.
 tests/fixtures/base-rules.ts:80:1: warning eslint(no-console): Unexpected console statement. help: Supported methods are: warn, error, time, timeEnd, timeStamp.
@@ -18,7 +19,7 @@ tests/fixtures/base-rules.ts:138:5: error eslint(no-constant-condition): Unexpec
 tests/fixtures/base-rules.ts:143:5: error eslint(no-compare-neg-zero): Do not use the === operator to compare against -0. help: Use Object.is(x, -0) to test equality with -0 and use 0 for other cases
 tests/fixtures/base-rules.ts:148:34: error eslint(no-constant-binary-expression): Unexpected constant binary expression help: This compares constantly with the left-hand side of the ===
 tests/fixtures/base-rules.ts:151:5: error eslint(no-constant-condition): Unexpected constant condition help: Update the condition to not be constant, or remove the condition entirely
-tests/fixtures/base-rules.ts:156:25: error eslint(no-control-regex): Unexpected control characters help: Avoid matching control characters in regular expressions. If intentional, consider using a Unicode escape instead.
+tests/fixtures/base-rules.ts:156:25: error eslint(no-control-regex): Unexpected control characters help: Avoid matching control characters in regular expressions. If intentional, disable this rule for the expression.
 tests/fixtures/base-rules.ts:159:1: error eslint(no-debugger): \`debugger\` statement is not allowed help: Remove the debugger statement
 tests/fixtures/base-rules.ts:176:12: error eslint(no-dupe-else-if): Duplicate conditions in if-else-if chain help: Remove or modify the duplicate condition, as its branch will never be executed.
 tests/fixtures/base-rules.ts:193:8: error eslint(no-duplicate-case): Duplicate case label help: Remove the duplicated case
