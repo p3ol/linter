@@ -451,7 +451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dprint/formatter@npm:^0.5.1":
+"@dprint/formatter@npm:0.5.1":
   version: 0.5.1
   resolution: "@dprint/formatter@npm:0.5.1"
   checksum: 10c0/dcbac90f7f8fb218ec978d61bec134fbd3cfd7f31e13f56db18a7d064a11e6640a67b74f0a515a0596e9ece48af4a435a364af35db86b2e7beca0c29677057cb
@@ -2318,7 +2318,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@poool/dprint-config@workspace:packages/dprint-config"
   dependencies:
-    "@dprint/formatter": "npm:^0.5.1"
+    "@dprint/formatter": "npm:0.5.1"
     dprint: "npm:0.56.1"
   peerDependencies:
     dprint: ">=0.56.0 <1.0.0"
