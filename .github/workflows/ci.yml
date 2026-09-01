@@ -43,7 +43,15 @@ jobs:
           cache: yarn
       - name: Install deps
         run: yarn install
+      - name: Cache dprint
+        id: cache-dprint
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: node_modules/.cache/dprint
+          key: ${{ runner.os }}-dprint-${{ hashFiles('packages/dprint-config/lib/recommended.json', 'packages/dprint-config/package.json') }}
       - name: Build rules
         run: yarn build
       - name: Test
         run: yarn test
+        env:
+          DPRINT_CACHE_DIR: ${{ github.workspace }}/node_modules/.cache/dprint
