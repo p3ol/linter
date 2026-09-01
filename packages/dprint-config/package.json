@@ -1,0 +1,33 @@
+{
+  "name": "@poool/dprint-config",
+  "version": "6.2.1",
+  "description": "Common dprint rules we share between projects at Poool",
+  "license": "MIT",
+  "author": "Simon Deflesschouwer <simon@poool.fr>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p3ol/linter.git",
+    "directory": "packages/dprint-config"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "rm -rf ./dist || true",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@dprint/formatter": "0.5.1",
+    "dprint": "0.56.1"
+  },
+  "peerDependencies": {
+    "dprint": ">=0.56.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
