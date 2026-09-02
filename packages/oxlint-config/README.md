@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-yarn add oxlint oxlint-tsgolint @poool/oxlint-config --dev
+yarn add oxlint @poool/oxlint-config --dev
 ```
 
 ## Usage

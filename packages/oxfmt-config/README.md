@@ -10,11 +10,14 @@ yarn add oxfmt @poool/oxfmt-config --dev
 
 ## Usage
 
-```json
-{
-  "$schema": "node_modules/oxfmt/configuration_schema.json",
-  "extends": [
-    "node_modules/@poool/oxfmt-config/lib/recommended.json"
-  ]
-}
+`oxfmt` does not have an `extends` property like `oxlint` does, so you'll need to use the JS/TS API inside `oxfmt.config.ts` instead of the `.oxfmtrc.json` file:
+
+```ts
+import { defineConfig } from 'oxfmt';
+import poool from '@poool/oxfmt-config';
+
+export default defineConfig({
+  ...poool.recommended,
+  // Add your personal config
+});
 ```

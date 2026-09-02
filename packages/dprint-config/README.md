@@ -10,7 +10,7 @@ yarn add dprint @poool/dprint-config --dev
 
 ## Usage
 
-```json
+```json name=".dprintrc.json"
 {
   "$schema": "https://dprint.dev/schemas/v0.json",
   "extends": ["node_modules/@poool/dprint-config/lib/recommended.json"]
