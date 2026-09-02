@@ -7,7 +7,7 @@ import { execa } from 'execa';
 describe('@poool/dprint-config', () => {
   const $ = execa({ preferLocal: true, reject: false });
 
-  it('should pass base rules', { timeout: 30_000 }, async () => {
+  it('should pass base rules', { timeout: 30000 }, async () => {
     const dirname = path.dirname(fileURLToPath(import.meta.url));
     const fixturePath = path.resolve(dirname, '../../../tests/fixtures/format-errors.ts');
     const configPath = path.resolve(dirname, '../../../tests/fixtures/dprint.json');
