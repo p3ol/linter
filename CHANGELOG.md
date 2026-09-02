@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.3.0](https://github.com/p3ol/linter/compare/v6.2.1...v6.3.0) (2026-09-02)
+
+
+### Features
+
+* add dprint support ([3e996bb](https://github.com/p3ol/linter/commit/3e996bb))
+* add rules ([d5d8cde](https://github.com/p3ol/linter/commit/d5d8cde))
+
+### Bug Fixes
+
+* add monorepo release config ([84c523b](https://github.com/p3ol/linter/commit/84c523b))
+* remove wrong rule ([032e46d](https://github.com/p3ol/linter/commit/032e46d))
+* try to change format test timeout ([b4181ea](https://github.com/p3ol/linter/commit/b4181ea))
+* update lockfile ([3957d52](https://github.com/p3ol/linter/commit/3957d52))
+* upgrade various deps ([fdca0c6](https://github.com/p3ol/linter/commit/fdca0c6))
+* upgrade various deps ([ddf0807](https://github.com/p3ol/linter/commit/ddf0807))
+* upgrade various deps ([9669036](https://github.com/p3ol/linter/commit/9669036))
+* upgrade various deps ([7847646](https://github.com/p3ol/linter/commit/7847646))
+
+
 ## [6.2.1](https://github.com/p3ol/linter/compare/v6.2.0...v6.2.1) (2026-08-12)
 
 ### Bug Fixes
