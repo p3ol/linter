@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.3.0](https://github.com/p3ol/linter/compare/v6.2.1...v6.3.0) (2026-09-02)
+
+### Bug Fixes
+
+* upgrade various deps ([7847646](https://github.com/p3ol/linter/commit/7847646e7d66eb06b1a6709b413dae414a918ef6))
+* upgrade various deps ([9669036](https://github.com/p3ol/linter/commit/96690361faec85e2958c525d7cb0712f94ea7337))
+* upgrade various deps ([ddf0807](https://github.com/p3ol/linter/commit/ddf080734573a1f09d88ac692a7d4431a5d3e0ca))
+
+
 ## [6.2.1](https://github.com/p3ol/linter/compare/v6.2.0...v6.2.1) (2026-08-12)
 
 ### Bug Fixes

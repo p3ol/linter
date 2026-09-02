@@ -1,6 +1,6 @@
 {
   "name": "@poool/dprint-config",
-  "version": "6.2.1",
+  "version": "6.3.0",
   "description": "Common dprint rules we share between projects at Poool",
   "license": "MIT",
   "author": "Simon Deflesschouwer <simon@poool.fr>",
