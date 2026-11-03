@@ -14,7 +14,10 @@
     "p:oxlint": "yarn workspace @poool/oxlint-config",
     "clean": "turbo run clean",
     "build": "turbo run build",
-    "prepack": "yarn build && yarn lint && yarn tsc && yarn test"
+    "prepack": "yarn build && yarn lint && yarn tsc && yarn test",
+    "preversion": "yarn prepack",
+    "release": "lerna version",
+    "release:publish": "lerna publish from-package --yes"
   },
   "devDependencies": {
     "@poool/eslint-config": "workspace:^",
