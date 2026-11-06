@@ -37,7 +37,7 @@
     "jest": "30.5.2",
     "lerna": "10.1.1",
     "oxlint": "1.90.0",
-    "oxlint-tsgolint": "7.0.2005",
+    "oxlint-tsgolint": "7.0.2006",
     "ts-node": "10.9.2",
     "turbo": "2.11.10",
     "typescript": "npm:@typescript/typescript6@6.0.2",
