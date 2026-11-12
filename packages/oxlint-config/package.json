@@ -22,7 +22,7 @@
   "dependencies": {
     "@stylistic/eslint-plugin": "5.10.0",
     "eslint-plugin-perfectionist": "5.13.0",
-    "oxlint-tsgolint": "7.0.2005"
+    "oxlint-tsgolint": "7.0.2007"
   },
   "devDependencies": {
     "oxlint": "1.90.0"
