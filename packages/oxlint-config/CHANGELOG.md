@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.3.3](https://github.com/p3ol/linter/compare/v6.3.2...v6.3.3) (2026-11-13)
+
+### Bug Fixes
+
+* upgrade various deps ([92ccfcf](https://github.com/p3ol/linter/commit/92ccfcfec589b5a93be94e4ff665bb2d9704d3f2))
+
+
 ## [6.3.2](https://github.com/p3ol/linter/compare/v6.3.1...v6.3.2) (2026-11-03)
 
 **Note:** Version bump only for package @poool/oxlint-config
